@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
-    [SerializeField] private KeyCode Rechts;
-    [SerializeField] private KeyCode links;
-    [SerializeField] private KeyCode up;
-    [SerializeField] private KeyCode down;
+    //[SerializeField] private KeyCode Rechts;
+    //[SerializeField] private KeyCode links;
+    //[SerializeField] private KeyCode up;
+    //[SerializeField] private KeyCode down;
 
     public float movementspeed;
     // Start is called before the first frame update
