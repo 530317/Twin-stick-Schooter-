@@ -54,7 +54,7 @@ public class playermovement : MonoBehaviour
         if (usecontroller)
         {
             Vector3 playerDirection = Vector3.right * Input.GetAxisRaw("RHorizontal") + Vector3.forward * -Input.GetAxisRaw("Rvertical");
-            if (playerDirection.sqrMagnitude> 0.0f)
+            if (playerDirection.sqrMagnitude > 0.0f)
             {
                 transform.rotation = Quaternion.LookRotation(playerDirection, Vector3.up);
             }
