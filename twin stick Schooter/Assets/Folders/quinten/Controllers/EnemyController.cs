@@ -45,6 +45,6 @@ public class EnemyController : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawSphere(transform.position, lookRadius);
+        Gizmos.DrawWireSphere(transform.position, lookRadius);
     }
 }
