@@ -12,10 +12,7 @@ public class triggerdeur : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "player")
-        {
+        Debug.Log("trigger");
             animator.SetBool("open", true);
-        }
-        
     }
 }

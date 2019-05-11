@@ -22,6 +22,7 @@ public class schooting : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            
             fire();
         }
     }
