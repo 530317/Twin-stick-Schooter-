@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Playerhealth : MonoBehaviour
 {
-    private int playerhealth;
-    private int armor;
-    private int damage;
+    public int playerhealth;
+    public int armor;
+    public int damage;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +27,7 @@ public class Playerhealth : MonoBehaviour
         }
         if (armor > 50)
         {
-            armor = 50;
+            armor = armor - damage;
         }
-
     }
 }
