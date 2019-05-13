@@ -4,20 +4,34 @@ using UnityEngine;
 
 public class optionmenu : MonoBehaviour
 {
-    public GameObject optioncanvas;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static bool gameispauzed = true;
+    public GameObject pauzemenuUI;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.Escape)) 
         {
-            optioncanvas.SetActive(true);
-          
+            if (gameispauzed)
+            {
+                Resume();
+            }
+            else
+            {
+                Pauze();
+            }
         }
+    }
+    public void Resume()
+    {
+        pauzemenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        gameispauzed = false;
+    }
+    public void Pauze()
+    {
+        pauzemenuUI.SetActive(true);
+        Time.timeScale = 1f;
+        gameispauzed = true;
     }
 }

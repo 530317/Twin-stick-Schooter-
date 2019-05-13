@@ -565,6 +565,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e555109dfe0b1c4e9f2510a8535b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bullet: {fileID: 0}
+  bulletSpeed: 0
+  timeBtweenShots: 0
+  firepoint: {fileID: 0}
   health: 0
   player: {fileID: 0}
   viewRadius: 0
@@ -887,17 +891,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 964599255518974710, guid: 0433417c6fcfbee44a46bff1a7a67937,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8092480631713415194, guid: 0433417c6fcfbee44a46bff1a7a67937,
         type: 3}
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8092480631993549857, guid: 0433417c6fcfbee44a46bff1a7a67937,
-        type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 964599255518974710, guid: 0433417c6fcfbee44a46bff1a7a67937,
         type: 3}
       propertyPath: m_Layer
       value: 10
@@ -1149,6 +1153,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e555109dfe0b1c4e9f2510a8535b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bullet: {fileID: 2165724216827353225, guid: 9f05386861dfa62449c438c47b5444de, type: 3}
+  bulletSpeed: 50
+  timeBtweenShots: 5
+  firepoint: {fileID: 223913233}
   health: 100
   player: {fileID: 802741652}
   viewRadius: 4.71
