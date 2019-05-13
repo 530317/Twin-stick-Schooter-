@@ -1,8 +1,13 @@
-﻿using UnityEngine;
+﻿    using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.AI;
 
 public class FieldOfView : MonoBehaviour {
+
+    public int health;
+    public GameObject player;
+    private NavMeshAgent agent;
 
 	public float viewRadius;
 	[Range(0,360)]
@@ -22,15 +27,19 @@ public class FieldOfView : MonoBehaviour {
 	Mesh viewMesh;
 
 	void Start() {
-		viewMesh = new Mesh ();
-		viewMesh.name = "View Mesh";
-		viewMeshFilter.mesh = viewMesh;
 
-		StartCoroutine ("FindTargetsWithDelay", .2f);
+     agent = GetComponent<NavMeshAgent>();
+     viewMesh = new Mesh ();
+     viewMesh.name = "View Mesh";
+	 viewMeshFilter.mesh = viewMesh;
+
+	 StartCoroutine ("FindTargetsWithDelay", .2f);
 	}
 
+    
+        
 
-	IEnumerator FindTargetsWithDelay(float delay) {
+    IEnumerator FindTargetsWithDelay(float delay) {
 		while (true) {
 			yield return new WaitForSeconds (delay);
 			FindVisibleTargets ();
@@ -52,12 +61,15 @@ public class FieldOfView : MonoBehaviour {
 				float dstToTarget = Vector3.Distance (transform.position, target.position);
 				if (!Physics.Raycast (transform.position, dirToTarget, dstToTarget, obstacleMask)) {
 					visibleTargets.Add (target);
-				}
+                   
+                }
 			}
 		}
 	}
 
-	void DrawFieldOfView() {
+    
+
+    void DrawFieldOfView() {
 		int stepCount = Mathf.RoundToInt(viewAngle * meshResolution);
 		float stepAngleSize = viewAngle / stepCount;
 		List<Vector3> viewPoints = new List<Vector3> ();
