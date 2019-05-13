@@ -18,6 +18,6 @@ public class triggerdeur : MonoBehaviour
         {
             animator.SetBool("open", true);
         }
-           
+
     }
 }
