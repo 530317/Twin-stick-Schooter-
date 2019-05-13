@@ -5,6 +5,12 @@ using UnityEngine.AI;
 
 public class FieldOfView : MonoBehaviour {
 
+    public bulletcontroller bullet;
+    public float bulletSpeed;
+    public float timeBtweenShots;
+    private float shotCounter;
+    public Transform firepoint;
+
     public int health;
     public GameObject player;
     private NavMeshAgent agent;
@@ -61,7 +67,8 @@ public class FieldOfView : MonoBehaviour {
 				float dstToTarget = Vector3.Distance (transform.position, target.position);
 				if (!Physics.Raycast (transform.position, dirToTarget, dstToTarget, obstacleMask)) {
 					visibleTargets.Add (target);
-                   // hier die regel van vamidag 
+                    GetComponent<NavMeshAgent>().SetDestination(player.transform.position);
+                    fire();
                 }
 			}
 		}
@@ -175,6 +182,13 @@ public class FieldOfView : MonoBehaviour {
 			angle = _angle;
 		}
 	}
+
+    private void fire()
+    {
+        shotCounter = timeBtweenShots;
+        bulletcontroller newbullet = Instantiate(bullet, firepoint.position, firepoint.rotation) as bulletcontroller;
+        newbullet.speed = bulletSpeed;
+    }
 
 	public struct EdgeInfo {
 		public Vector3 pointA;

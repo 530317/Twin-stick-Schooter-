@@ -5,6 +5,7 @@ using UnityEngine;
 public class bulletcontroller : MonoBehaviour
 {
     public float speed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,7 @@ public class bulletcontroller : MonoBehaviour
     }
     IEnumerator schooting()
     {
+        Playerhealth.armor -= 1;
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
         yield return new WaitForSeconds(2f);
         Destroy(gameObject);

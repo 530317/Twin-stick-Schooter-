@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Playerhealth : MonoBehaviour
 {
-    public int playerhealth;
-    public int armor;
-    public int damage;
+    public static int playerhealth;
+    public static int armor;
+    public static int damage;
     // Start is called before the first frame update
     void Start()
     {
