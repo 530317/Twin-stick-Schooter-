@@ -5,10 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class startmenu : MonoBehaviour
 {
-    public void level()
+    public void Level()
+    {
+        SceneManager.LoadScene("regenboog zombies");
+    }
+    public void Options()
     {
         SceneManager.LoadScene("level 1");
     }
+    public void Levels()
+    {
+        SceneManager.LoadScene("level 1");
+    }
+    public void Credits()
+    {
+        SceneManager.LoadScene("level 1");
+    }
+
     public void Quit()
     {
         Application.Quit();
