@@ -49,6 +49,9 @@ MonoBehaviour:
   bullet: {fileID: 2165724216827353225, guid: 8092c6a5f3e5c2044b73af5083dbd7a1, type: 3}
   bulletSpeed: 100
   timeBtweenShots: 1
+  currentAmmo: 5
+  reloadtime: 1
+  text: {fileID: 0}
   firepoint: {fileID: 8092480631713415195}
 --- !u!1 &8092480631713415194
 GameObject:
@@ -92,7 +95,7 @@ GameObject:
   - component: {fileID: 8092480632578622476}
   - component: {fileID: 8092480632578622479}
   - component: {fileID: 8092480632578622478}
-  - component: {fileID: 103808741414473439}
+  - component: {fileID: 425914746639094054}
   - component: {fileID: 8092480632578622513}
   - component: {fileID: 8092480632578622512}
   m_Layer: 0
@@ -176,7 +179,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &103808741414473439
+--- !u!114 &425914746639094054
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,7 +188,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8092480632578622515}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0ec7e4b6e45910468e77986bab4f3e4, type: 3}
+  m_Script: {fileID: 11500000, guid: 121a1b64f98052c4c846f9d542a21b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &8092480632578622513
