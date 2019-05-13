@@ -21,9 +21,11 @@ public class Pickupkeycard : MonoBehaviour
         Debug.Log("trigger");
         if (other.name == "Player1")
         {
+            triggerdeur.gotkeycard = true;
             onscreen.transform.position = new Vector3(0.97f, 7.9f, -2.07f);
             //Destroy(gameObject);
         }
           
     }
+
 }

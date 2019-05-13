@@ -14,8 +14,13 @@ public class bulletcontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        StartCoroutine(schooting());
+    }
+    IEnumerator schooting()
+    {
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
-
+        yield return new WaitForSeconds(2f);
+        Destroy(gameObject);
     }
 
 }

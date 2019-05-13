@@ -5,6 +5,7 @@ using UnityEngine;
 public class triggerdeur : MonoBehaviour
 {
     private Animator animator;
+    public static bool gotkeycard = false;
 
     private void Start()
     {
@@ -13,6 +14,10 @@ public class triggerdeur : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("trigger");
+        if (other.name == "Player1" && gotkeycard)
+        {
             animator.SetBool("open", true);
+        }
+           
     }
 }
