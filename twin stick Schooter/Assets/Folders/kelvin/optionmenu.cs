@@ -31,7 +31,7 @@ public class optionmenu : MonoBehaviour
     public void Pauze()
     {
         pauzemenuUI.SetActive(true);
-        Time.timeScale = 1f;
+        Time.timeScale = 0f;
         gameispauzed = true;
     }
 }
