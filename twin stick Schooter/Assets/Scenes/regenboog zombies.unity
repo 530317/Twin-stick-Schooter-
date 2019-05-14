@@ -97,7 +97,7 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
+    agentRadius: 0.1
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
@@ -105,13 +105,13 @@ NavMeshSettings:
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.033333335
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 52e972678b31c4045844458ad4dbba18, type: 2}
 --- !u!1001 &11310880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -122,6 +122,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -194,6 +202,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.4032362
@@ -264,6 +280,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -428,6 +452,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.9428115
@@ -492,6 +524,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
       propertyPath: m_Name
       value: muurhoek (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -563,6 +603,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
       propertyPath: m_Name
       value: muurdeur (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -695,6 +743,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -893,6 +949,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurdeur (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.8499684
@@ -994,6 +1058,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.2637486
@@ -1085,6 +1157,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurdeur (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.709359
@@ -1148,6 +1228,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurdeur (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.2564373
@@ -1204,6 +1292,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1281,6 +1377,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
       propertyPath: m_Name
       value: muurhoek
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1383,6 +1487,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1518,6 +1630,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.276403
@@ -1626,6 +1746,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.73323655
@@ -1690,6 +1818,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1883,6 +2019,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2117,6 +2261,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5338035
@@ -2177,6 +2329,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2390,6 +2550,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2624,6 +2792,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.035369
@@ -2714,6 +2890,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurdeur (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.609163
@@ -2770,6 +2954,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2860,6 +3052,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3192,6 +3392,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.307641
@@ -3319,6 +3527,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
       propertyPath: m_Name
       value: muurhoek (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3672,7 +3888,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &749724708
 BoxCollider:
@@ -3931,6 +4147,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.901806
@@ -3995,6 +4219,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4146,6 +4378,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.800249
@@ -4236,6 +4476,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.9803135
@@ -4300,6 +4548,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4366,6 +4622,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.2335169
@@ -4430,6 +4694,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4521,6 +4793,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.407985
@@ -4591,6 +4871,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4730,6 +5018,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurdeur (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.1519012
@@ -4818,6 +5114,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.3212578
@@ -4882,6 +5186,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5100,6 +5412,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.9468133
@@ -5244,6 +5564,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.24973154
@@ -5327,6 +5655,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.9709034
@@ -5391,6 +5727,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5457,6 +5801,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurdeur (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5670815
@@ -5513,6 +5865,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5596,6 +5956,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5681,6 +6049,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.8236291
@@ -5746,6 +6122,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5972409
@@ -5810,6 +6194,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5944,6 +6336,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6091,6 +6491,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.350313
@@ -6155,6 +6563,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6227,6 +6643,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurdeur (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.0734415
@@ -6283,6 +6707,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6366,6 +6798,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
       propertyPath: m_Name
       value: muurhoek (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8ade72f82cce28f439cfb2ce02329ba2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6451,6 +6891,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.7387486
@@ -6515,6 +6963,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6586,6 +7042,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6749,6 +7213,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.4103131
@@ -6814,6 +7286,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.47082067
@@ -6878,6 +7358,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7124,6 +7612,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.4606686
@@ -7189,6 +7685,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5467603
@@ -7253,6 +7757,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7338,6 +7850,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.1768909
@@ -7402,6 +7922,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
       propertyPath: m_Name
       value: muurdeur (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7748,6 +8276,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurdeur
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 019c0fae4f5e352478b2f4fc5fd6974b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.345004
@@ -7862,6 +8398,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.16117
@@ -7942,6 +8486,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.429378
@@ -8019,6 +8571,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.648015
@@ -8083,6 +8643,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8254,6 +8822,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8473,6 +9049,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.2096605
@@ -8620,6 +9204,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.055768
@@ -8696,6 +9288,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8781,6 +9381,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.367249
@@ -8846,6 +9454,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.3626881
@@ -8910,6 +9526,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9048,6 +9672,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: muurrecht (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.4803135
@@ -9124,6 +9756,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9214,6 +9854,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9335,6 +9983,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9492,6 +10148,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_Name
       value: muurrecht (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72afdba4822f5474e9c528053812c62a, type: 3}
       propertyPath: m_LocalPosition.x
