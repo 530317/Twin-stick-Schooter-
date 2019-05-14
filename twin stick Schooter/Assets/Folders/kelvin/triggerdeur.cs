@@ -14,13 +14,10 @@ public class triggerdeur : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("trigger");
-        //if (Input.GetKey(KeyCode.E))
-        //{
-            if (other.name == "Player1" && gotkeycard)
-            {
-                animator.SetBool("open", true);
-            }
-        //}
+        if (other.name == "Player1" && gotkeycard)
+        {
+            animator.SetBool("open", true);
+        }
 
     }
 }
