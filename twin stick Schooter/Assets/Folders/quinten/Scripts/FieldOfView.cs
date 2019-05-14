@@ -32,6 +32,8 @@ public class FieldOfView : MonoBehaviour {
 	public MeshFilter viewMeshFilter;
 	Mesh viewMesh;
 
+
+
 	void Start() {
 
      agent = GetComponent<NavMeshAgent>();
@@ -42,8 +44,9 @@ public class FieldOfView : MonoBehaviour {
 	 StartCoroutine ("FindTargetsWithDelay", .2f);
 	}
 
-    
-        
+
+
+
 
     IEnumerator FindTargetsWithDelay(float delay) {
 		while (true) {
@@ -67,7 +70,7 @@ public class FieldOfView : MonoBehaviour {
 				float dstToTarget = Vector3.Distance (transform.position, target.position);
 				if (!Physics.Raycast (transform.position, dirToTarget, dstToTarget, obstacleMask)) {
 					visibleTargets.Add (target);
-                    GetComponent<NavMeshAgent>().SetDestination(player.transform.position);
+                    FollowPlayer();
                     fire();
                 }
 			}
@@ -199,5 +202,9 @@ public class FieldOfView : MonoBehaviour {
 			pointB = _pointB;
 		}
 	}
+    public void FollowPlayer()
+    {
+       GetComponent<NavMeshAgent>().SetDestination(player.transform.position);
+    }
 
 }
