@@ -16,6 +16,7 @@ public class Pickupkeycard : MonoBehaviour
     {
         
     }
+
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("trigger");
