@@ -51,7 +51,6 @@ MonoBehaviour:
   timeBtweenShots: 1
   currentAmmo: 5
   reloadtime: 1
-  text: {fileID: 0}
   firepoint: {fileID: 8092480631713415195}
 --- !u!1 &8092480631713415194
 GameObject:
