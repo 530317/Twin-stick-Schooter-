@@ -7,7 +7,7 @@ public class startmenu : MonoBehaviour
 {
     public void Level()
     {
-        SceneManager.LoadScene("regenboog zombies");
+        SceneManager.LoadScene("sene nieke");
     }
     public void Options()
     {
