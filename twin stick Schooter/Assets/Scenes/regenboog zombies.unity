@@ -3853,6 +3853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa91d795e556bf4792fe5cc69f3c6b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openbool: 0
 --- !u!4 &740193959
 Transform:
   m_ObjectHideFlags: 0
@@ -9592,7 +9593,7 @@ PrefabInstance:
     - target: {fileID: 8092480632578622477, guid: 0433417c6fcfbee44a46bff1a7a67937,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.8
+      value: 9.11
       objectReference: {fileID: 0}
     - target: {fileID: 8092480632578622477, guid: 0433417c6fcfbee44a46bff1a7a67937,
         type: 3}
@@ -11252,6 +11253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa91d795e556bf4792fe5cc69f3c6b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openbool: 0
 --- !u!65 &6099609100810703020
 BoxCollider:
   m_ObjectHideFlags: 0

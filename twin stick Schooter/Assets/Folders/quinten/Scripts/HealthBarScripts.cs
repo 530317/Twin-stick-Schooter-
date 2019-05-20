@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class HealthBarScripts : MonoBehaviour
 {
 
-    Image healthBar;
+    public Image HealthBar;
     float maxHealth;
     public static float health;
 
@@ -14,13 +14,13 @@ public class HealthBarScripts : MonoBehaviour
     void Start()
     {
         maxHealth = Playerhealth.playerhealth; 
-        healthBar = GetComponent<Image>();
+        HealthBar = GetComponent<Image>();
         health = maxHealth;
     }
 
     
     void Update()
     {
-        healthBar.fillAmount = health / maxHealth;
+        HealthBar.fillAmount = health / maxHealth;
     }
 }

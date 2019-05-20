@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4534707571012864527}
   - component: {fileID: 2063430537723240037}
   - component: {fileID: 4534707571012864522}
+  - component: {fileID: 3080417750445300785}
   - component: {fileID: 4534707571012864526}
   - component: {fileID: 4534707571012864523}
   - component: {fileID: 4534707571012864520}
@@ -128,6 +129,19 @@ MonoBehaviour:
   edgeResolveIterations: 4
   edgeDstThreshold: 0.5
   viewMeshFilter: {fileID: 4534707571175356920}
+--- !u!114 &3080417750445300785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4534707571012864529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939b94715e1cd2c4fa574174d8573fe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealthBar: {fileID: 0}
 --- !u!65 &4534707571012864526
 BoxCollider:
   m_ObjectHideFlags: 0
