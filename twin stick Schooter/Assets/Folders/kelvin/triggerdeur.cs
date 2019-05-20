@@ -14,13 +14,14 @@ public class triggerdeur : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("trigger");
-        if (other.name == "Player1" && gotkeycard)
-        {
-            animator.SetBool("open", true);
-            gotkeycard = false;
-        }
-
-            
+            animator.SetTrigger("opendoor");
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        animator.enabled = true;
+    }
+    void pauseAnimationEvent()
+    {
+        animator.enabled = false;
     }
 }
