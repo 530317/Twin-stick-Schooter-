@@ -14,11 +14,10 @@ public class Guncontroller : MonoBehaviour
     private float shotCounter;
 
     public static int maxamo = 30;
-    public int currentAmmo = 5;
+    public static int currentAmmo = 5;
     public float reloadtime = 1f;
     private bool isreloading = false;
 
-    //public Text text;
     public Transform firepoint;
 
     // Start is called before the first frame update
@@ -58,7 +57,7 @@ public class Guncontroller : MonoBehaviour
         {
             shotCounter = 0;
         }
-        //text.text = "amo:" + currentAmmo + "/" + maxamo;
+       
     }
     IEnumerator Reload()
     {

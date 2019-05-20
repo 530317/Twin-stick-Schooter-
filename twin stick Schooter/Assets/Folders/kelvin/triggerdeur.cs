@@ -10,18 +10,21 @@ public class triggerdeur : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
+  
     }
 
     private void OnTriggerEnter(Collider other)
     {
-            animator.SetTrigger("opendoor");
+        animator.SetBool("active", true);
+         
+            //animator.SetTrigger("opendoor2");
     }
     private void OnTriggerExit(Collider other)
     {
-        animator.enabled = true;
+        animator.SetBool("active", false);
     }
     void pauseAnimationEvent()
     {
-        animator.enabled = false;
+       
     }
 }

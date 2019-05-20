@@ -5,17 +5,20 @@ using UnityEngine.UI;
 
 public class amotext : MonoBehaviour
 {
-    //public Text text;
-    //private int amo;
-    //// Start is called before the first frame update
-    //void Start()
-    //{
-    //    amo = GetComponents<Guncontroller>
-    //}
+    public Text text;
+    private int currentamo;
+    private int maxamo;
+    // Start is called before the first frame update
+    void Start()
+    {
+       
+    }
 
-    //// Update is called once per frame
-    //void Update()
-    //{
-    //    text.text = "amo:" + amo + "/30" ;
-    //}
+    // Update is called once per frame
+    void Update()
+    {
+        text.text = "amo:" + currentamo + "/" + maxamo;
+        currentamo = Guncontroller.currentAmmo;
+         maxamo = Guncontroller.maxamo;
+    }
 }

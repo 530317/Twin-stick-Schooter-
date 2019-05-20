@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/models/Scenes/level 1.unity
     guid: 8461703eb07d0d846a9bcfe0412adb77
   - enabled: 1
-    path: Assets/models/Scenes/regenboog zombies.unity
+    path: Assets/Scenes/regenboog zombies.unity
     guid: 3d68d624ee48827408c04ffb96ae8bf7
   m_configObjects: {}
