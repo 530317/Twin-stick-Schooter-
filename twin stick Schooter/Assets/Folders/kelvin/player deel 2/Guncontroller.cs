@@ -66,7 +66,7 @@ public class Guncontroller : MonoBehaviour
             if (Input.GetKey(KeyCode.R))
             {
                 isreloading = true;
-                Debug.Log("reloding");
+                Debug.Log("reloading");
                 yield return new WaitForSeconds(reloadtime);
                 currentAmmo = 5;
                 maxamo = maxamo - currentAmmo;

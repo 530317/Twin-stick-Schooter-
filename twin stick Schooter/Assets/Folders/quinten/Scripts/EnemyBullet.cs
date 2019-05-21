@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bulletcontroller : MonoBehaviour
+public class EnemyBullet : MonoBehaviour
 {
     public float speed;
     float damage = -10f;
@@ -10,7 +10,7 @@ public class bulletcontroller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -20,7 +20,7 @@ public class bulletcontroller : MonoBehaviour
     }
     IEnumerator schooting()
     {
-      
+        //Playerhealth.playerhealth -= 0.2f;
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
         yield return new WaitForSeconds(2f);
         Destroy(gameObject);
