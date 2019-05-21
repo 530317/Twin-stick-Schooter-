@@ -12,11 +12,12 @@ public class FieldOfView : MonoBehaviour {
     private float shotCounter;
     public Transform firepoint;
 
-    public Image healtBar;
-    public Image ArmorBar;
+    //public Image healtBar;
+    //public Image ArmorBar;
 
-    public int health;
-    public int armor;
+    private float health;
+    
+
     public GameObject player;
     private NavMeshAgent agent;
 
@@ -43,7 +44,7 @@ public class FieldOfView : MonoBehaviour {
      viewMesh = new Mesh ();
      viewMesh.name = "View Mesh";
 	 viewMeshFilter.mesh = viewMesh;
-
+        health = 1f;
 	 StartCoroutine ("FindTargetsWithDelay", .2f);
 	}
 
@@ -81,7 +82,23 @@ public class FieldOfView : MonoBehaviour {
 		}
 	}
 
-    
+    void OnTriggerEnter(Collider hit)
+    {
+        if (hit.gameObject.tag == "PlayerBullet")
+        {
+            health -= 0.5f;
+
+            if (health <0f)
+            {
+                Destroy(gameObject);
+                //score++;
+            }
+          
+        }
+
+
+    }
+
 
     void DrawFieldOfView() {
 		int stepCount = Mathf.RoundToInt(viewAngle * meshResolution);
