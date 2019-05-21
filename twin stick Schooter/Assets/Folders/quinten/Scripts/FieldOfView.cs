@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class FieldOfView : MonoBehaviour {
 
     public bulletcontroller bullet;
+    public static int score;
     public float bulletSpeed;
     public float timeBtweenShots;
     private float shotCounter;
@@ -91,7 +92,7 @@ public class FieldOfView : MonoBehaviour {
             if (health <0f)
             {
                 Destroy(gameObject);
-                //score++;
+                score++;
             }
           
         }
