@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/sene nieke.unity
     guid: bc73fb802371fe14c9dce610aff09caa
+  - enabled: 1
+    path: Assets/models/Scenes/credits.unity
+    guid: 84b8ab6af034b98409f957ec56f21019
   m_configObjects: {}

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class optionmenu : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class optionmenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape)) 
+        if (Input.GetKeyDown(KeyCode.Escape)) 
         {
             if (gameispauzed)
             {
@@ -21,6 +22,10 @@ public class optionmenu : MonoBehaviour
                 Pauze();
             }
         }
+    }
+    public void BackToStart()
+    {
+        SceneManager.LoadScene("start");
     }
     public void Resume()
     {
@@ -34,4 +39,5 @@ public class optionmenu : MonoBehaviour
         Time.timeScale = 0f;
         gameispauzed = true;
     }
+
 }

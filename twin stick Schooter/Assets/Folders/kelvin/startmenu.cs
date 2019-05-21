@@ -11,7 +11,7 @@ public class startmenu : MonoBehaviour
     }
     public void Options()
     {
-        SceneManager.LoadScene("level 1");
+        SceneManager.LoadScene("start");
     }
     public void Levels()
     {
@@ -19,11 +19,15 @@ public class startmenu : MonoBehaviour
     }
     public void Credits()
     {
-        SceneManager.LoadScene("level 1");
+        SceneManager.LoadScene("credits");
     }
 
     public void Quit()
     {
         Application.Quit();
+    }
+    public void Back()
+    {
+        SceneManager.LoadScene("start");
     }
 }
