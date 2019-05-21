@@ -24,3 +24,11 @@ public class Controller : MonoBehaviour {
 		rigidbody.MovePosition (rigidbody.position + velocity * Time.fixedDeltaTime);
 	}
 }
+
+
+
+
+
+
+
+
