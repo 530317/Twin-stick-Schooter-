@@ -29,6 +29,11 @@ public class Guncontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            maxamo = 10000;
+            currentAmmo = maxamo;
+        }
         if (isreloading)
         {
             return;

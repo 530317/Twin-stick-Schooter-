@@ -9,6 +9,7 @@ public class triggerdeur : MonoBehaviour
     public static bool gotkeycard = false;
     public static bool gotrodekeycard = false;
     public static bool gotrozekeycard = false;
+    public static bool gotblouwekeycard = false;
     public bool openbool;
     private void Start()
     {
@@ -23,6 +24,10 @@ public class triggerdeur : MonoBehaviour
             animator.SetBool("active", true);
         }
         else if (deur == 2 && gotrozekeycard)
+        {
+            animator.SetBool("active", true);
+        }
+        if (deur == 3 && gotblouwekeycard)
         {
             animator.SetBool("active", true);
         }

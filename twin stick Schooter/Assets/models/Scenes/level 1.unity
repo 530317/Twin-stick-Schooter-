@@ -143,7 +143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c4c55a0890fc434f8b2001b6b458aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 0}
 --- !u!114 &15609078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,6 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   onscreen: {fileID: 15609072}
+  getal: 0
 --- !u!1 &58621076
 GameObject:
   m_ObjectHideFlags: 0

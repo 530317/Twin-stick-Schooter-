@@ -21,19 +21,26 @@ public class Pickupkeycard : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("trigger");
-        if (other.name == "Player1")
+        if (other.name == "player1")
         {
             if (getal == 1)
             {
                 triggerdeur.gotrodekeycard = true;
+                Destroy(gameObject);
             }
             if (getal == 2)
             {
                 triggerdeur.gotrozekeycard = true;
+                Destroy(gameObject);
+            }
+            if (getal == 3)
+            {
+                triggerdeur.gotblouwekeycard = true;
+                Destroy(gameObject);
             }
            
-            onscreen.transform.position = new Vector3(0.97f, 7.9f, -2.07f);
-            Destroy(gameObject);
+            //onscreen.transform.position = new Vector3(0.97f, 7.9f, -2.07f);
+           
         }
           
     }

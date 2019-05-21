@@ -19,9 +19,10 @@ public class pickuparmor : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("trigger2");
-        if (other.name == "Player1")
+        if (other.name == "player1")
         {
-            //Destroy(gameObject);
+            TakeDamage.armor = 1f;
+            Destroy(gameObject);
         }
 
     }

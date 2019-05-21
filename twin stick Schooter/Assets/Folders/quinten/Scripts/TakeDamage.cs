@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class TakeDamage : MonoBehaviour
 {
-    private float health = 1f;
-    private float armor = 1f;
+    public static float health = 1f;
+    public static float armor = 1f;
     private bool naarhealth = false;
     private bool Cheatcode = false;
     public Image healtbar;
@@ -19,7 +19,7 @@ public class TakeDamage : MonoBehaviour
     }
 
      void OnTriggerEnter(Collider hit)
-    {
+     {
         if (hit.gameObject.tag == "Bullet")
         {
             armor -= 0.5f;
@@ -30,8 +30,8 @@ public class TakeDamage : MonoBehaviour
         }
 
         
-    }
-
+     }
+ 
 
     void Update()
     {
@@ -44,7 +44,7 @@ public class TakeDamage : MonoBehaviour
         else if (health < 0f)
         {
             Destroy(gameObject);
-                
+              
         }
         if (Input.GetKeyDown(KeyCode.E))
         {

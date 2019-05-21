@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AmoPickUp : MonoBehaviour
+public class pickuphealth : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -17,10 +17,11 @@ public class AmoPickUp : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("trigger2");
         if (other.name == "player1")
         {
-            Guncontroller.maxamo = 30;
-           Destroy(gameObject);
+            TakeDamage.health = 1f;
+            Destroy(gameObject);
         }
 
     }
