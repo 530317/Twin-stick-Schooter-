@@ -5,7 +5,10 @@ using UnityEngine;
 public class triggerdeur : MonoBehaviour
 {
     private Animator animator;
+    public int deur;
     public static bool gotkeycard = false;
+    public static bool gotrodekeycard = false;
+    public static bool gotrozekeycard = false;
     public bool openbool;
     private void Start()
     {
@@ -15,16 +18,23 @@ public class triggerdeur : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        animator.SetBool("active", true);
-         
-            //animator.SetTrigger("opendoor2");
+        if (deur == 1 && gotrodekeycard)
+        {
+            animator.SetBool("active", true);
+        }
+        else if (deur == 2 && gotrozekeycard)
+        {
+            animator.SetBool("active", true);
+        }
+        if (deur == 0)
+        {
+            animator.SetBool("active", true);
+        }
+       
+
     }
     private void OnTriggerExit(Collider other)
     {
         animator.SetBool("active", false);
-    }
-    void pauseAnimationEvent()
-    {
-       
     }
 }
