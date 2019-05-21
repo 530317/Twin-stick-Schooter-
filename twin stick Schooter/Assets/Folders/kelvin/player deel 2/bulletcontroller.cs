@@ -19,7 +19,7 @@ public class bulletcontroller : MonoBehaviour
     }
     IEnumerator schooting()
     {
-        Playerhealth.playerhealth = 10;
+        //Playerhealth.playerhealth -= 0.2f;
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
         yield return new WaitForSeconds(2f);
         Destroy(gameObject);

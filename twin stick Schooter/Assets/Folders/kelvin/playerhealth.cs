@@ -5,27 +5,27 @@ using UnityEngine;
 public class Playerhealth : MonoBehaviour
 {
     public static float playerhealth;
-    public static int armor;
-    public static int damage;
-    // Start is called before the first frame update
+    public static float armor;
+    public static float damage;
+   
     void Start()
     {
-        playerhealth = 100f;
-        armor = 50;
+        playerhealth = 1f;
+        armor = 1f;
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        if (playerhealth < 0)
+        if (playerhealth < 0f)
         {
             Debug.Log("player died ");
         }
-        if (armor > 0)
+        if (armor > 0f)
         {
-            playerhealth = playerhealth - damage;
+            
         }
-        if (armor > 50)
+        if (armor > 1f)
         {
             armor = armor - damage;
         }

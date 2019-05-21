@@ -49,7 +49,6 @@ MonoBehaviour:
   bullet: {fileID: 2165724216827353225, guid: 8092c6a5f3e5c2044b73af5083dbd7a1, type: 3}
   bulletSpeed: 100
   timeBtweenShots: 1
-  currentAmmo: 5
   reloadtime: 1
   firepoint: {fileID: 8092480631713415195}
 --- !u!1 &8092480631713415194
@@ -94,6 +93,7 @@ GameObject:
   - component: {fileID: 8092480632578622476}
   - component: {fileID: 8092480632578622479}
   - component: {fileID: 8092480632578622478}
+  - component: {fileID: 508218071063456923}
   - component: {fileID: 425914746639094054}
   - component: {fileID: 8092480632578622513}
   - component: {fileID: 8092480632578622512}
@@ -178,6 +178,18 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &508218071063456923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8092480632578622515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdacfd1c6ff77384080fc772ff7501a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &425914746639094054
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class FieldOfView : MonoBehaviour {
 
@@ -11,7 +12,11 @@ public class FieldOfView : MonoBehaviour {
     private float shotCounter;
     public Transform firepoint;
 
+    public Image healtBar;
+    public Image ArmorBar;
+
     public int health;
+    public int armor;
     public GameObject player;
     private NavMeshAgent agent;
 
@@ -70,6 +75,7 @@ public class FieldOfView : MonoBehaviour {
 					visibleTargets.Add (target);
                     GetComponent<NavMeshAgent>().SetDestination(player.transform.position);
                     fire();
+                   
                 }
 			}
 		}
@@ -189,8 +195,9 @@ public class FieldOfView : MonoBehaviour {
         shotCounter = timeBtweenShots;
         bulletcontroller newbullet = Instantiate(bullet, firepoint.position, firepoint.rotation) as bulletcontroller;
         newbullet.speed = bulletSpeed;
-    }
 
+    }
+    
 	public struct EdgeInfo {
 		public Vector3 pointA;
 		public Vector3 pointB;
