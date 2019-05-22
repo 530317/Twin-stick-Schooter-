@@ -13,9 +13,6 @@ public class FieldOfView : MonoBehaviour {
     private float shotCounter;
     public Transform firepoint;
 
-    //public Image healtBar;
-    //public Image ArmorBar;
-
     public float health;
     
 
