@@ -16,7 +16,7 @@ public class FieldOfView : MonoBehaviour {
     //public Image healtBar;
     //public Image ArmorBar;
 
-    private float health;
+    public float health;
     
 
     public GameObject player;
@@ -45,7 +45,7 @@ public class FieldOfView : MonoBehaviour {
      viewMesh = new Mesh ();
      viewMesh.name = "View Mesh";
 	 viewMeshFilter.mesh = viewMesh;
-        health = 1f;
+     health = 1f;
 	 StartCoroutine ("FindTargetsWithDelay", .2f);
 	}
 
@@ -88,7 +88,7 @@ public class FieldOfView : MonoBehaviour {
         if (hit.gameObject.tag == "PlayerBullet")
         {
             health -= 0.5f;
-
+            Debug.Log("HIT");
             if (health <0f)
             {
                 Destroy(gameObject);
