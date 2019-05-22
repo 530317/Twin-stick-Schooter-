@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class look : MonoBehaviour
+public class Look : MonoBehaviour
 {
     // Update is called once per frame
     private void Update()

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class FieldOfView : MonoBehaviour {
 
-    public bulletcontroller bullet;
+    public Bulletcontroller bullet;
     public static int score;
     public float bulletSpeed;
     public float timeBtweenShots;
@@ -73,7 +73,7 @@ public class FieldOfView : MonoBehaviour {
                 {
 					visibleTargets.Add (target);
                     GetComponent<NavMeshAgent>().SetDestination(player.transform.position);
-                    fire();
+                    Fire();
                    
                 }
 			}
@@ -205,10 +205,10 @@ public class FieldOfView : MonoBehaviour {
 		}
 	}
 
-    private void fire()
+    private void Fire()
     {
         shotCounter = timeBtweenShots;
-        bulletcontroller newbullet = Instantiate(bullet, firepoint.position, firepoint.rotation) as bulletcontroller;
+        Bulletcontroller newbullet = Instantiate(bullet, firepoint.position, firepoint.rotation) as Bulletcontroller;
         newbullet.speed = bulletSpeed;
 
     }
