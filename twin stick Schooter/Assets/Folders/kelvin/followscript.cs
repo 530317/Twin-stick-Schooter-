@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class followscript : MonoBehaviour
+public class Followscript : MonoBehaviour
 {
     public Transform target;
 

@@ -25,17 +25,17 @@ public class Pickupkeycard : MonoBehaviour
         {
             if (getal == 1)
             {
-                triggerdeur.gotrodekeycard = true;
+                Triggerdeur.gotrodekeycard = true;
                 Destroy(gameObject);
             }
             if (getal == 2)
             {
-                triggerdeur.gotrozekeycard = true;
+                Triggerdeur.gotrozekeycard = true;
                 Destroy(gameObject);
             }
             if (getal == 3)
             {
-                triggerdeur.gotblouwekeycard = true;
+                Triggerdeur.gotblouwekeycard = true;
                 Destroy(gameObject);
             }
            

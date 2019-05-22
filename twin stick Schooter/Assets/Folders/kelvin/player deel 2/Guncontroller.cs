@@ -7,7 +7,7 @@ public class Guncontroller : MonoBehaviour
 {
     public bool isfiring;
 
-    public bulletcontroller bullet;
+    public Bulletcontroller bullet;
     public float bulletSpeed;
 
     public float timeBtweenShots;
@@ -49,7 +49,7 @@ public class Guncontroller : MonoBehaviour
             if (shotCounter <= 0)
             {
 
-                    StartCoroutine(fire());
+                    StartCoroutine(Fire());
 
 
                 //currentAmmo--;
@@ -79,11 +79,11 @@ public class Guncontroller : MonoBehaviour
             }
         }
     }
-    IEnumerator fire()
+    IEnumerator Fire()
     {
         currentAmmo--;
         shotCounter = timeBtweenShots;
-        bulletcontroller newbullet = Instantiate(bullet, firepoint.position, firepoint.rotation) as bulletcontroller;
+        Bulletcontroller newbullet = Instantiate(bullet, firepoint.position, firepoint.rotation) as Bulletcontroller;
         newbullet.speed = bulletSpeed;
         yield return new WaitForSeconds(3f);
     }

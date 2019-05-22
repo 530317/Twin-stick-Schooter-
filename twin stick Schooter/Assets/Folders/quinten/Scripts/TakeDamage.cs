@@ -20,6 +20,8 @@ public class TakeDamage : MonoBehaviour
     private float spawnpointz;
     void Start()
     {
+        health = 1f;
+        armor = 1f;
         spawnpointx = 6.812796f;
         spawnpointy = 0.189f;
         spawnpointz = -8.907f;
@@ -51,9 +53,10 @@ public class TakeDamage : MonoBehaviour
         else if (health < 0f)
         {
             //Destroy(gameObject);
+            SceneManager.LoadScene("deathscene");
+
             player.transform.position = new Vector3(spawnpointx,spawnpointy,spawnpointz);
             death++;
-            //deathscreen.SetActive(true);
         }
         if (Input.GetKeyDown(KeyCode.E))
         {

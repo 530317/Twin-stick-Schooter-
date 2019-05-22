@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class triggerdeur : MonoBehaviour
+public class Triggerdeur : MonoBehaviour
 {
     private Animator animator;
     public int deur;

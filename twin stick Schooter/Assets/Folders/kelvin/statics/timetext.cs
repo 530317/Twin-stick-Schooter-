@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class timetext : MonoBehaviour
+public class Timetext : MonoBehaviour
 {
     public Text text;
     private float starttimer;

@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class startmenu : MonoBehaviour
+public class Startmenu : MonoBehaviour
 {
+    private void Start()
+    {
+        TakeDamage.death = 0;
+    }
     public void Level()
     {
         SceneManager.LoadScene("sene nieke");

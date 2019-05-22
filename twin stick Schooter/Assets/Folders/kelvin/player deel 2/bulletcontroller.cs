@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bulletcontroller : MonoBehaviour
+public class Bulletcontroller : MonoBehaviour
 {
     public float speed;
 
@@ -16,9 +16,9 @@ public class bulletcontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        StartCoroutine(schooting());
+        StartCoroutine(Schooting());
     }
-    IEnumerator schooting()
+    IEnumerator Schooting()
     {
       
         transform.Translate(Vector3.forward * speed * Time.deltaTime);

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class finish : MonoBehaviour
+public class Finish : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -17,6 +17,6 @@ public class finish : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        timetext.finnish = true;
+        Timetext.finnish = true;
     }
 }
