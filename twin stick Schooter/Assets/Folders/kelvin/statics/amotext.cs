@@ -11,7 +11,7 @@ public class Amotext : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+
     }
 
     // Update is called once per frame
@@ -19,6 +19,6 @@ public class Amotext : MonoBehaviour
     {
         text.text = "amo:" + currentamo + "/" + maxamo;
         currentamo = Guncontroller.currentAmmo;
-         maxamo = Guncontroller.maxamo;
+        maxamo = Guncontroller.maxamo;
     }
 }

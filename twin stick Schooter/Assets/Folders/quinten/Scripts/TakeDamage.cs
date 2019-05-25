@@ -13,7 +13,6 @@ public class TakeDamage : MonoBehaviour
     private bool Cheatcode = false;
     public Image healtbar;
     public Image armorbar;
-    public GameObject deathscreen;
     public GameObject player;
     private float spawnpointx;
     private float spawnpointy;

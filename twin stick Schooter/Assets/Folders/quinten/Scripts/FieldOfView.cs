@@ -80,22 +80,22 @@ public class FieldOfView : MonoBehaviour {
 		}
 	}
 
-    void OnTriggerEnter(Collider hit)
+    void OnCollisionEnter(Collision hit)
     {
         if (hit.gameObject.tag == "PlayerBullet")
         {
             health -= 0.5f;
             Debug.Log("HIT");
-            if (health <0f)
+            if (health < 0f)
             {
                 Destroy(gameObject);
                 score++;
             }
-          
         }
-
-
     }
+
+
+
 
 
     void DrawFieldOfView() {
