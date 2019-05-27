@@ -9,14 +9,21 @@ public class TakeDamage : MonoBehaviour
     public static float health = 1f;
     public static float armor = 1f;
     public static int death;
+
     private bool naarhealth = false;
     private bool Cheatcode = false;
+
     public Image healtbar;
     public Image armorbar;
     public GameObject player;
+
     private float spawnpointx;
     private float spawnpointy;
     private float spawnpointz;
+
+    public static string deathdoor;
+    public static int deathdoorname;
+
     void Start()
     {
         health = 1f;
@@ -28,7 +35,7 @@ public class TakeDamage : MonoBehaviour
 
      void OnTriggerEnter(Collider hit)
      {
-        if (hit.gameObject.tag == "Bullet")
+        if (hit.gameObject.tag == "EnemyRobot")
         {
             armor -= 0.5f;
             if (naarhealth)
@@ -36,9 +43,9 @@ public class TakeDamage : MonoBehaviour
                 health -= 0.3f;
             }
         }
-
-        
-     }
+        deathdoor = hit.gameObject.tag;
+        hit.gameObject.name.ToString();
+    }
  
 
     void Update()
@@ -53,7 +60,6 @@ public class TakeDamage : MonoBehaviour
         {
             //Destroy(gameObject);
             SceneManager.LoadScene("deathscene");
-
             player.transform.position = new Vector3(spawnpointx,spawnpointy,spawnpointz);
             death++;
         }
@@ -61,7 +67,6 @@ public class TakeDamage : MonoBehaviour
         {
             health = 10000f;
             armor = 10000f;
-            
         }
     }
 

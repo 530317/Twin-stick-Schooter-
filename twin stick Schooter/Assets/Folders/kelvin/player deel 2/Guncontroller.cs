@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class Guncontroller : MonoBehaviour
 {
     public bool isfiring;
-
     public Bulletcontroller bullet;
     public float bulletSpeed;
 
@@ -14,7 +13,7 @@ public class Guncontroller : MonoBehaviour
     private float shotCounter;
 
     public static int maxamo = 30;
-    public static int currentAmmo = 5;
+    public static int currentAmmo = 0;
     public float reloadtime = 1f;
     private bool isreloading = false;
 

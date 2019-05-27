@@ -10,20 +10,18 @@ public class Deathcreen : MonoBehaviour
     public Text deathdoor;
     public Text playerscore;
     private int deathcount;
-    private int deathdoorname;
+    private string deathdoorname;
     private int score;
 
-    // Start is called before the first frame update
     void Start()
     {
        deathcount = TakeDamage.death;
         score = Score.score;
+        deathdoorname = TakeDamage.deathdoor;
     }
 
-    // Update is called once per frame
     void Update()
     {
-       
         deaths.text = "aantal keer gespeel:" + deathcount;
         deathdoor.text = "death door:" + deathdoorname;
         playerscore.text = "playerscore" + score;
@@ -32,6 +30,8 @@ public class Deathcreen : MonoBehaviour
     {
         SceneManager.LoadScene("start");
         deathcount = 0;
+        Score.score = 0;
+        Guncontroller.currentAmmo = 0;
         Triggerdeur.gotblouwekeycard = false;
         Triggerdeur.gotrodekeycard = false;
         Triggerdeur.gotrozekeycard = false;
