@@ -653,6 +653,7 @@ GameObject:
   m_Component:
   - component: {fileID: 27815896}
   - component: {fileID: 27815899}
+  - component: {fileID: 27815898}
   - component: {fileID: 27815897}
   m_Layer: 0
   m_Name: amo
@@ -714,6 +715,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'amo '
+--- !u!114 &27815898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27815895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71ca4ab4a5d2db44fb05fa640dd96006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 27815897}
 --- !u!222 &27815899
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2117,7 +2131,7 @@ PrefabInstance:
     - target: {fileID: 530101685369332966, guid: 4bf0c5b044f857244864690066341acd,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 530101685369332966, guid: 4bf0c5b044f857244864690066341acd,
         type: 3}
@@ -4728,7 +4742,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 570, y: -658}
+  m_AnchoredPosition: {x: 765, y: -1027}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &258836045
@@ -11844,7 +11858,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1956278765}
-  m_RootOrder: 77
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &645527422
 BoxCollider:
@@ -18915,7 +18929,7 @@ PrefabInstance:
     - target: {fileID: 530101685369332966, guid: 4bf0c5b044f857244864690066341acd,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 530101685369332966, guid: 4bf0c5b044f857244864690066341acd,
         type: 3}
@@ -23069,7 +23083,7 @@ PrefabInstance:
     - target: {fileID: 530101685369332966, guid: 4bf0c5b044f857244864690066341acd,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 530101685369332966, guid: 4bf0c5b044f857244864690066341acd,
         type: 3}
@@ -28624,7 +28638,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 316, y: -120}
+  m_AnchoredPosition: {x: 316, y: -163}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1638923895
@@ -32784,7 +32798,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1956278765}
-  m_RootOrder: 76
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1872060489
 BoxCollider:
@@ -33834,8 +33848,8 @@ Transform:
   - {fileID: 119881393}
   - {fileID: 831690253}
   - {fileID: 1771025755}
-  - {fileID: 1872060488}
   - {fileID: 645527421}
+  - {fileID: 1872060488}
   - {fileID: 2013793165}
   - {fileID: 831210415}
   - {fileID: 1019088463}
