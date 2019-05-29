@@ -10,7 +10,7 @@ public class Playermovement : MonoBehaviour
     private Vector3 moveInput;
     private Vector3 moveVelocity;
 
-    private Camera maincamera;
+    public Camera maincamera;
 
     public Guncontroller thegun;
 
@@ -19,7 +19,6 @@ public class Playermovement : MonoBehaviour
     void Start()
     {
         myRigedbody = GetComponent<Rigidbody>();
-        maincamera = FindObjectOfType<Camera>();
     }
 
     // Update is called once per frame

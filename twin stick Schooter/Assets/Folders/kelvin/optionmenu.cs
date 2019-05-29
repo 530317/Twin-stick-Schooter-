@@ -26,6 +26,7 @@ public class Optionmenu : MonoBehaviour
     public void BackToStart()
     {
         SceneManager.LoadScene("start");
+        pauzemenuUI.SetActive(false);
     }
     public void Resume()
     {

@@ -31,6 +31,7 @@ public class Deathcreen : MonoBehaviour
         SceneManager.LoadScene("start");
         deathcount = 0;
         Score.score = 0;
+        Guncontroller.maxamo = 30;
         Guncontroller.currentAmmo = 0;
         Triggerdeur.gotblouwekeycard = false;
         Triggerdeur.gotrodekeycard = false;

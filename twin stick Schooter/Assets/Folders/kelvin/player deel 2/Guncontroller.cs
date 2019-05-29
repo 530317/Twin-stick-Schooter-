@@ -12,7 +12,7 @@ public class Guncontroller : MonoBehaviour
     public float timeBtweenShots;
     private float shotCounter;
 
-    public static int maxamo = 30;
+    public static int maxamo = 0;
     public static int currentAmmo = 0;
     public float reloadtime = 1f;
     private bool isreloading = false;
@@ -28,7 +28,7 @@ public class Guncontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             maxamo = 10000;
             currentAmmo = maxamo;
@@ -47,10 +47,7 @@ public class Guncontroller : MonoBehaviour
             shotCounter -= Time.deltaTime;
             if (shotCounter <= 0)
             {
-
-                    StartCoroutine(Fire());
-
-
+                  StartCoroutine(Fire());
                 //currentAmmo--;
                 //shotCounter = timeBtweenShots;
                 //bulletcontroller newbullet = Instantiate(bullet, firepoint.position, firepoint.rotation) as bulletcontroller;
@@ -62,6 +59,14 @@ public class Guncontroller : MonoBehaviour
             shotCounter = 0;
         }
        
+    }
+    IEnumerator Fire()
+    {
+        currentAmmo--;
+        shotCounter = timeBtweenShots;
+        Bulletcontroller newbullet = Instantiate(bullet, firepoint.position, firepoint.rotation) as Bulletcontroller;
+        newbullet.speed = bulletSpeed;
+        yield return new WaitForSeconds(3f);
     }
     IEnumerator Reload()
     {
@@ -78,12 +83,5 @@ public class Guncontroller : MonoBehaviour
             }
         }
     }
-    IEnumerator Fire()
-    {
-        currentAmmo--;
-        shotCounter = timeBtweenShots;
-        Bulletcontroller newbullet = Instantiate(bullet, firepoint.position, firepoint.rotation) as Bulletcontroller;
-        newbullet.speed = bulletSpeed;
-        yield return new WaitForSeconds(3f);
-    }
+   
 }

@@ -29,7 +29,7 @@ public class EnemyTakeDamage : MonoBehaviour
             if (health1 < 0f)
             {
                 Destroy(gameObject);
-                //score++;
+                Score.score++;
             }
         }
         else if (hit.gameObject.tag == "PlayerBullet" && enemy == 2)
@@ -39,7 +39,7 @@ public class EnemyTakeDamage : MonoBehaviour
             if (health2 < 0f)
             {
                 Destroy(gameObject);
-               //score++;
+                Score.score++;
             }
         }
         else if (hit.gameObject.tag == "PlayerBullet" && enemy == 3)
@@ -49,7 +49,7 @@ public class EnemyTakeDamage : MonoBehaviour
             if (health3 < 0f)
             {
                 Destroy(gameObject);
-                //score++;
+                Score.score++;
             }
         }
         else if (hit.gameObject.tag == "PlayerBullet" && enemy == 4)
@@ -59,7 +59,7 @@ public class EnemyTakeDamage : MonoBehaviour
             if (health4 < 0f)
             {
                 Destroy(gameObject);
-                //score++;
+                Score.score++;
             }
         }
     }
