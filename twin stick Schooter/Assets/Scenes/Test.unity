@@ -1970,7 +1970,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &2113348917
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2031,7 +2031,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2113348916}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.21, y: 0.49, z: 0}
+  m_LocalPosition: {x: 0.35, y: 0.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 163563502}
@@ -2051,7 +2051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13c18340a1b0d6e4e8808cc30c4934d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookRadius: 10
+  lookRadius: 1.73
 --- !u!1001 &4534707572016328798
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2063,6 +2063,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4534707571012864529, guid: bf2600d96952b2b408c4ef1834e0b157,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9089401348603598403, guid: bf2600d96952b2b408c4ef1834e0b157,
         type: 3}
@@ -2221,7 +2226,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6497008373199088935}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -48.8, y: 0.28, z: 3.8283195}
+  m_LocalPosition: {x: -172.3, y: 0.28, z: 3.8283195}
   m_LocalScale: {x: 2.6622, y: 2.6622, z: 2.6622}
   m_Children:
   - {fileID: 1245275411}
@@ -2241,7 +2246,7 @@ GameObject:
   - component: {fileID: 6497008373199088936}
   - component: {fileID: 6497008373201351655}
   m_Layer: 0
-  m_Name: robot_3
+  m_Name: Enemy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

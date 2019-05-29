@@ -73,9 +73,7 @@ public class EnemyTakeDamage : MonoBehaviour
         healtbar2.fillAmount = health2;
         healtbar3.fillAmount = health3;
         healtbar4.fillAmount = health4;
-        //if (health <0f)
-        //{
-        //    Destroy(gameObject);
-        //}
+
+      
     }
 }
