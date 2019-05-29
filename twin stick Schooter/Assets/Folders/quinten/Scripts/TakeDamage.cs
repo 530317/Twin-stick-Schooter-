@@ -45,7 +45,7 @@ public class TakeDamage : MonoBehaviour
         }
         deathdoor = hit.gameObject.tag;
         hit.gameObject.name.ToString();
-    }
+     }
  
 
     void Update()
