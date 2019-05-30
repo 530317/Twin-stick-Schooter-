@@ -16,7 +16,7 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        score = FieldOfView.score;
+        //score = FieldOfView.score;
         text.text = "score:" + score;
     }
 }

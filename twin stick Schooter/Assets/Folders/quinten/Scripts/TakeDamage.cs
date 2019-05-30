@@ -63,7 +63,7 @@ public class TakeDamage : MonoBehaviour
             player.transform.position = new Vector3(spawnpointx,spawnpointy,spawnpointz);
             death++;
         }
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             health = 10000f;
             armor = 10000f;
