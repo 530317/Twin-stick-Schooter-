@@ -13465,7 +13465,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f75e6809c032ec342bd38fb983a41618, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauzemenuUI: {fileID: 837919204}
 --- !u!114 &837919206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30181,7 +30180,7 @@ PrefabInstance:
     - target: {fileID: 8092480632578622477, guid: 0433417c6fcfbee44a46bff1a7a67937,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.4
+      value: 11.98
       objectReference: {fileID: 0}
     - target: {fileID: 8092480632578622477, guid: 0433417c6fcfbee44a46bff1a7a67937,
         type: 3}
@@ -30283,16 +30282,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1928641282}
-    - target: {fileID: 8092480630772966261, guid: 0433417c6fcfbee44a46bff1a7a67937,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.298
-      objectReference: {fileID: 0}
-    - target: {fileID: 8092480630772966261, guid: 0433417c6fcfbee44a46bff1a7a67937,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4
-      objectReference: {fileID: 0}
     - target: {fileID: 8092480632578622479, guid: 0433417c6fcfbee44a46bff1a7a67937,
         type: 3}
       propertyPath: m_Enabled
@@ -30303,6 +30292,16 @@ PrefabInstance:
       propertyPath: maincamera
       value: 
       objectReference: {fileID: 534669904}
+    - target: {fileID: 8092480630772966261, guid: 0433417c6fcfbee44a46bff1a7a67937,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.298
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092480630772966261, guid: 0433417c6fcfbee44a46bff1a7a67937,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0433417c6fcfbee44a46bff1a7a67937, type: 3}
 --- !u!1 &1928641282 stripped
@@ -30886,7 +30885,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f75e6809c032ec342bd38fb983a41618, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauzemenuUI: {fileID: 837919204}
 --- !u!1001 &1966855663
 PrefabInstance:
   m_ObjectHideFlags: 0
