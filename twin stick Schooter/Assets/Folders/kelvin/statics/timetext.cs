@@ -8,6 +8,7 @@ public class Timetext : MonoBehaviour
     public Text text;
     private float starttimer;
     public static bool finnish = false;
+    public static string time;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,7 @@ public class Timetext : MonoBehaviour
         string sec = (t % 60).ToString("0");
 
         text.text = "timer: " + min + ":" + sec;
+        time = "timer: " + min + ":" + sec;
         if (finnish ==  true)
         {
             finnish = true;
