@@ -1179,6 +1179,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8092480631713415194, guid: 0433417c6fcfbee44a46bff1a7a67937,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8092480632578622477, guid: 0433417c6fcfbee44a46bff1a7a67937,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1250,11 +1255,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 964599255518974710, guid: 0433417c6fcfbee44a46bff1a7a67937,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8092480631713415194, guid: 0433417c6fcfbee44a46bff1a7a67937,
         type: 3}
       propertyPath: m_Layer
       value: 0
@@ -1994,6 +1994,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591477691}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1732291828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1732291829}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1732291829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732291828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.150973, y: 0.36364466, z: -0.00037577748}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1734262120 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4534707571012864529, guid: bf2600d96952b2b408c4ef1834e0b157,
@@ -2951,6 +2981,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Patricle System
+      objectReference: {fileID: 0}
+    - target: {fileID: 6695651011507662598, guid: 7d50338bc4d46194f8336075572b6f9e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3860910726390243567, guid: 7d50338bc4d46194f8336075572b6f9e,
         type: 3}
