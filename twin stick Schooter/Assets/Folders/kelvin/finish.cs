@@ -20,7 +20,7 @@ public class Finish : MonoBehaviour
         time = Timetext.time;
         score = Score.score;
     }
-
+    
     // Update is called once per frame
     void Update()
     {

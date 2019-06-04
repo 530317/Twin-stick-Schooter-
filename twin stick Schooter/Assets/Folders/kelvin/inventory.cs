@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class inventory : MonoBehaviour
+public class Inventory : MonoBehaviour
 {
     public Image image;
     public GameObject button;

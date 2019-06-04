@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class naarfinish : MonoBehaviour
+public class Naarfinish : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
