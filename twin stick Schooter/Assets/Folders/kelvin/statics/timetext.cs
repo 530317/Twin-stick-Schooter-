@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class Timetext : MonoBehaviour
 {
     public Text text;
-    private float starttimer;
+    public static float starttimer;
     public static bool finnish = false;
+    public static string time;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,12 +24,13 @@ public class Timetext : MonoBehaviour
 
         string min = ((int)t / 60).ToString();
         string sec = (t % 60).ToString("0");
-
+        time = "timer: " + min + ":" + sec;
         text.text = "timer: " + min + ":" + sec;
         if (finnish ==  true)
         {
             finnish = true;
             text.color = Color.white;
+            starttimer = 0;
         }
     }
 }
