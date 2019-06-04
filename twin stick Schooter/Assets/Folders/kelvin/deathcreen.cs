@@ -36,6 +36,8 @@ public class Deathcreen : MonoBehaviour
         Triggerdeur.gotblouwekeycard = false;
         Triggerdeur.gotrodekeycard = false;
         Triggerdeur.gotrozekeycard = false;
+
+       Timetext.starttimer = 0;
     }
     public void Resume()
     {
