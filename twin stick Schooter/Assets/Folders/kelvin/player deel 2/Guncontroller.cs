@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Guncontroller : MonoBehaviour
 {
+    Muzzleflash muzzelflash;
     public bool isfiring;
     public Bulletcontroller bullet;
     public float bulletSpeed;
@@ -22,7 +23,7 @@ public class Guncontroller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       muzzelflash = GetComponent<Muzzleflash>();
     }
 
     // Update is called once per frame
@@ -47,7 +48,8 @@ public class Guncontroller : MonoBehaviour
             shotCounter -= Time.deltaTime;
             if (shotCounter <= 0)
             {
-                  StartCoroutine(Fire());
+                muzzelflash.Activate();
+                StartCoroutine(Fire());
                 //currentAmmo--;
                 //shotCounter = timeBtweenShots;
                 //bulletcontroller newbullet = Instantiate(bullet, firepoint.position, firepoint.rotation) as bulletcontroller;
@@ -67,6 +69,7 @@ public class Guncontroller : MonoBehaviour
         Bulletcontroller newbullet = Instantiate(bullet, firepoint.position, firepoint.rotation) as Bulletcontroller;
         newbullet.speed = bulletSpeed;
         yield return new WaitForSeconds(3f);
+        
     }
     IEnumerator Reload()
     {
