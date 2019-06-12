@@ -23,6 +23,8 @@ public class Guncontroller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        maxamo = 0;
+        currentAmmo = 0; 
        muzzelflash = GetComponent<Muzzleflash>();
     }
 

@@ -31,13 +31,16 @@ public class Deathcreen : MonoBehaviour
         SceneManager.LoadScene("start");
         deathcount = 0;
         Score.score = 0;
-        Guncontroller.maxamo = 30;
+        Guncontroller.maxamo = 0;
         Guncontroller.currentAmmo = 0;
         Triggerdeur.gotblouwekeycard = false;
         Triggerdeur.gotrodekeycard = false;
         Triggerdeur.gotrozekeycard = false;
-
-       Timetext.starttimer = 0;
+        EnemyTakeDamage.health1 = 1f;
+        EnemyTakeDamage.health2 = 1f;
+        EnemyTakeDamage.health3 = 1f;
+        EnemyTakeDamage.health4 = 1f;
+        Timetext.starttimer = 0;
     }
     public void Resume()
     {
