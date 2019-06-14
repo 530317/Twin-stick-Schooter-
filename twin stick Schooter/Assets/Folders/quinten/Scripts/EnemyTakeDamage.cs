@@ -6,10 +6,10 @@ using UnityEngine.UI;
 public class EnemyTakeDamage : MonoBehaviour
 {
     public int enemy;
-    public static float health1 = 1f;
-    public static float health2 = 1f;
-    public static float health3 = 1f;
-    public static float health4 = 1f;
+    public static float health1;
+    public static float health2;
+    public static float health3;
+    public static float health4;
     public Image healtbar1;
     public Image healtbar2;
     public Image healtbar3;
@@ -18,6 +18,10 @@ public class EnemyTakeDamage : MonoBehaviour
 
     void Start()
     {
+        health1 = 1f;
+        health2 = 1f;
+        health3 = 1f;
+        health4 = 1f;
     }
 
     void OnTriggerEnter(Collider hit)
@@ -73,7 +77,6 @@ public class EnemyTakeDamage : MonoBehaviour
         healtbar2.fillAmount = health2;
         healtbar3.fillAmount = health3;
         healtbar4.fillAmount = health4;
-
-      
+             
     }
 }

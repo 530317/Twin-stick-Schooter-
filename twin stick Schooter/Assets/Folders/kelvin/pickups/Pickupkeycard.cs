@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class Pickupkeycard : MonoBehaviour
 {
-    public GameObject onscreen;
+    public Inventory inventory;
+    public GameObject itembutton;
     public int getal;
     // Start is called before the first frame update
     void Start()
     {
-        
+
+
     }
 
     // Update is called once per frame
@@ -23,21 +25,47 @@ public class Pickupkeycard : MonoBehaviour
         Debug.Log("trigger");
         if (other.name == "player1")
         {
-            if (getal == 1)
+            //if (getal == 1)
+            //{
+            //   Triggerdeur.gotrodekeycard = true;
+            //   Destroy(gameObject);
+            //}
+            //if (getal == 2)
+            //{
+            //   Triggerdeur.gotrozekeycard = true;
+            //   Destroy(gameObject);
+            //}
+            //if (getal == 3)
+            //{
+            //  Triggerdeur.gotblouwekeycard = true;
+            //  Destroy(gameObject);
+            //}
+            for (int i = 0; i < inventory.slots.Length; i++)
             {
-                Triggerdeur.gotrodekeycard = true;
-                Destroy(gameObject);
+                if (inventory.isFull[i] == false)
+                {
+                    inventory.isFull[i] = true;
+                    Instantiate(itembutton, inventory.slots[i].transform,false);
+                    if (getal == 1)
+                    {
+                        Triggerdeur.gotrodekeycard = true;
+                        Destroy(gameObject);
+                    }
+                    if (getal == 2)
+                    {
+                        Triggerdeur.gotrozekeycard = true;
+                        Destroy(gameObject);
+                    }
+                    if (getal == 3)
+                    {
+                        Triggerdeur.gotblouwekeycard = true;
+                        Destroy(gameObject);
+                    }
+                    Destroy(gameObject);
+                    break;
+                }
             }
-            if (getal == 2)
-            {
-                Triggerdeur.gotrozekeycard = true;
-                Destroy(gameObject);
-            }
-            if (getal == 3)
-            {
-                Triggerdeur.gotblouwekeycard = true;
-                Destroy(gameObject);
-            }
+            
            
             //onscreen.transform.position = new Vector3(0.97f, 7.9f, -2.07f);
            
