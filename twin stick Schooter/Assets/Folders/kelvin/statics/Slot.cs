@@ -14,11 +14,12 @@ public class Slot : MonoBehaviour
     {
         if (transform.childCount <= 0)
         {
-            inventory.isFull[i] = false;
+           inventory.isFull[i] = false;
         }
     }
     public void dropitem()
     {
+
         foreach (Transform child in transform)
         {
             GameObject.Destroy(child.gameObject);
