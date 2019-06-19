@@ -25,7 +25,7 @@ public class Timetext : MonoBehaviour
         string min = ((int)t / 60).ToString();
         string sec = (t % 60).ToString("0");
         time = "timer: " + min + ":" + sec;
-        text.text = "timer: " + min + ":" + sec;
+        text.text =  min + ":" + sec;
         if (finnish ==  true)
         {
             finnish = true;

@@ -9,7 +9,7 @@ public class Deathcreen : MonoBehaviour
     public Text deaths;
     public Text deathdoor;
     public Text playerscore;
-    private int deathcount;
+    public int deathcount;
     private string deathdoorname;
     private int score;
 
