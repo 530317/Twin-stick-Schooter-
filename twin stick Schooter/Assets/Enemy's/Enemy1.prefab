@@ -127,11 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06d73744071313c4c8dfc71797da39c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: 0
-  healtbar1: {fileID: 0}
-  healtbar2: {fileID: 0}
-  healtbar3: {fileID: 0}
-  healtbar4: {fileID: 0}
+  healtbar: {fileID: 7940430733533849993}
+  enemy: {fileID: 3193837789319949286}
 --- !u!114 &3193837789319949280
 MonoBehaviour:
   m_ObjectHideFlags: 0
