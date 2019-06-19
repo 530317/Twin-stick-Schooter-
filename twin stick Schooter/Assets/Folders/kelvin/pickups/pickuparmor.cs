@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Pickuparmor : MonoBehaviour
 {
-
+    public Inventory inventory;
+    public GameObject itembutton;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,12 +19,19 @@ public class Pickuparmor : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("trigger2");
         if (other.name == "player1")
         {
-            TakeDamage.armor = 1f;
-            Destroy(gameObject);
+            for (int i = 0; i < inventory.slots.Length; i++)
+            {
+                if (inventory.isFull[i] == false)
+                {
+                    TakeDamage.armor = 1f;
+                    inventory.isFull[i] = true;
+                    Instantiate(itembutton, inventory.slots[i].transform, false);
+                    Destroy(gameObject);
+                    break;
+                }
+            }
         }
-
     }
 }

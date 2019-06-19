@@ -20,6 +20,10 @@ public class Guncontroller : MonoBehaviour
 
     public Transform firepoint;
 
+    public AudioSource audio;
+    public AudioSource emty;
+    public AudioSource reloding;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,9 +44,11 @@ public class Guncontroller : MonoBehaviour
         {
             return;
         }
+
         if (currentAmmo <= 0)
         {
                StartCoroutine(Reload());
+                
                return;
         }
         if (isfiring)
@@ -52,10 +58,6 @@ public class Guncontroller : MonoBehaviour
             {
                 muzzelflash.Activate();
                 StartCoroutine(Fire());
-                //currentAmmo--;
-                //shotCounter = timeBtweenShots;
-                //bulletcontroller newbullet = Instantiate(bullet, firepoint.position, firepoint.rotation) as bulletcontroller;
-                //newbullet.speed = bulletSpeed;
             }
         }
         else
@@ -70,18 +72,25 @@ public class Guncontroller : MonoBehaviour
         shotCounter = timeBtweenShots;
         Bulletcontroller newbullet = Instantiate(bullet, firepoint.position, firepoint.rotation) as Bulletcontroller;
         newbullet.speed = bulletSpeed;
+        audio.PlayOneShot(audio.clip);
         yield return new WaitForSeconds(3f);
-        
     }
     IEnumerator Reload()
     {
         if (maxamo != 0)
         {
+            if (isfiring)
+            {
+                emty.PlayOneShot(emty.clip);
+                yield return new WaitForSeconds(100f);
+
+            }
             if (Input.GetKey(KeyCode.R))
             {
                 isreloading = true;
                 Debug.Log("reloading");
                 yield return new WaitForSeconds(reloadtime);
+                reloding.PlayOneShot(reloding.clip);
                 currentAmmo = 5;
                 maxamo = maxamo - currentAmmo;
                 isreloading = false;
