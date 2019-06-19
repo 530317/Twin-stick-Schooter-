@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2330641381578687746}
   - component: {fileID: 130391524011129800}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: MuzzleFlash 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7348622978644378396}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Muzzleflash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1236361517366244668}
   - component: {fileID: 8067048961827695318}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: MuzzleFlash 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,7 +201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6345674454406779934}
   - component: {fileID: 916354465663780452}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 8092480630772966261}
   - component: {fileID: 8092480630772966258}
   - component: {fileID: 7687681766395991760}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8092480631713415195}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 425914746639094054}
   - component: {fileID: 8092480632578622513}
   - component: {fileID: 8092480632578622512}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: player1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -475,9 +475,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36163b53d8c17de459aa59641dcc7f51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  button: {fileID: 0}
-  canvas: {fileID: 0}
+  isFull: 
+  slots: []
 --- !u!114 &508218071063456923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -547,6 +546,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bc4dadbfa218ac54a958662e83474ad3, type: 3}
       propertyPath: m_Name
       value: gun_ph
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bc4dadbfa218ac54a958662e83474ad3, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bc4dadbfa218ac54a958662e83474ad3, type: 3}
       propertyPath: m_LocalPosition.x
