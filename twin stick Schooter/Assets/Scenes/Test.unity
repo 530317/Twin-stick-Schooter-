@@ -629,6 +629,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f693825f8697ba40b9e08fb62281f77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inventory: {fileID: 0}
+  itembutton: {fileID: 0}
 --- !u!65 &434721919
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1271,12 +1273,17 @@ PrefabInstance:
       propertyPath: movespeed
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 8092480630772966261, guid: 0433417c6fcfbee44a46bff1a7a67937,
+    - target: {fileID: 964599255518974710, guid: 0433417c6fcfbee44a46bff1a7a67937,
         type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.18
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8092480630772966260, guid: 0433417c6fcfbee44a46bff1a7a67937,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092480631713415194, guid: 0433417c6fcfbee44a46bff1a7a67937,
         type: 3}
       propertyPath: m_Layer
       value: 0
@@ -1286,15 +1293,10 @@ PrefabInstance:
       propertyPath: m_DynamicOccludee
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 964599255518974710, guid: 0433417c6fcfbee44a46bff1a7a67937,
+    - target: {fileID: 8092480630772966261, guid: 0433417c6fcfbee44a46bff1a7a67937,
         type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8092480631713415194, guid: 0433417c6fcfbee44a46bff1a7a67937,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
+      propertyPath: m_LocalPosition.y
+      value: 0.18
       objectReference: {fileID: 0}
     - target: {fileID: 8092480631993549857, guid: 0433417c6fcfbee44a46bff1a7a67937,
         type: 3}
