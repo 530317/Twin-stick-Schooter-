@@ -15,11 +15,11 @@ public class Startmenu : MonoBehaviour
     }
     public void Options()
     {
-        SceneManager.LoadScene("start");
+        SceneManager.LoadScene("settings");
     }
     public void Levels()
     {
-        SceneManager.LoadScene("level 1");
+        SceneManager.LoadScene("levelmenu");
     }
     public void Credits()
     {
