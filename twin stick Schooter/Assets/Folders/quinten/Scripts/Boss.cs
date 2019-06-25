@@ -6,10 +6,15 @@ using UnityEngine.UI;
 
 public class Boss : MonoBehaviour
 {
-   
+    public Bulletcontroller bullet;
     public static int score;
+    public float bulletSpeed;
+    public float timeBtweenShots;
+    private float shotCounter;
+    public Transform firepoint;
 
     public float health;
+
 
     public GameObject player;
     private NavMeshAgent agent;
@@ -75,7 +80,7 @@ public class Boss : MonoBehaviour
                 {
                     visibleTargets.Add(target);
                     GetComponent<NavMeshAgent>().SetDestination(player.transform.position);
-                    
+                    Fire();
 
                 }
             }
@@ -208,6 +213,14 @@ public class Boss : MonoBehaviour
             dst = _dst;
             angle = _angle;
         }
+    }
+
+    private void Fire()
+    {
+        shotCounter = timeBtweenShots;
+        Bulletcontroller newbullet = Instantiate(bullet, firepoint.position, firepoint.rotation) as Bulletcontroller;
+        newbullet.speed = bulletSpeed;
+
     }
 
     public struct EdgeInfo
