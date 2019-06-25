@@ -27,7 +27,6 @@ public class AmoPickUp : MonoBehaviour
           {
              if (inventory.isFull[i] == false)
              {
-                 Guncontroller.maxamo = 30;
                  inventory.isFull[i] = true;
                  Instantiate(itembutton, inventory.slots[i].transform, false);
                  Destroy(gameObject);
@@ -35,5 +34,10 @@ public class AmoPickUp : MonoBehaviour
              }
           }
        }
+    }
+    public void knop()
+    {
+      Guncontroller.maxamo = 30;
+        
     }
 }

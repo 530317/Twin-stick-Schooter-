@@ -17,7 +17,11 @@ public class Bulletcontroller : MonoBehaviour
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
     }
+    void OnTriggerEnter(Collider hit)
+    {
+        if (hit.gameObject.tag == "Wall")
+        {
 
-
-
+        }
+    }
 }

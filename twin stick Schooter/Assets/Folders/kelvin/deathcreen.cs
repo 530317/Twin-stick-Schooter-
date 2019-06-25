@@ -45,5 +45,16 @@ public class Deathcreen : MonoBehaviour
     public void Resume()
     {
         SceneManager.LoadScene("sene nieke");
+        Score.score = 0;
+        Guncontroller.maxamo = 0;
+        Guncontroller.currentAmmo = 0;
+        Triggerdeur.gotblouwekeycard = false;
+        Triggerdeur.gotrodekeycard = false;
+        Triggerdeur.gotrozekeycard = false;
+        EnemyTakeDamage.health1 = 1f;
+        EnemyTakeDamage.health2 = 1f;
+        EnemyTakeDamage.health3 = 1f;
+        EnemyTakeDamage.health4 = 1f;
+        Timetext.starttimer = 0;
     }
 }

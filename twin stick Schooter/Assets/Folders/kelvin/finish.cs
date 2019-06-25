@@ -44,5 +44,13 @@ public class Finish : MonoBehaviour
     public void Resume()
     {
         SceneManager.LoadScene("sene nieke");
+        Score.score = 0;
+        Guncontroller.maxamo = 30;
+        Guncontroller.currentAmmo = 0;
+        Triggerdeur.gotblouwekeycard = false;
+        Triggerdeur.gotrodekeycard = false;
+        Triggerdeur.gotrozekeycard = false;
+
+        Timetext.starttimer = 0;
     }
 }

@@ -73,10 +73,10 @@ public class EnemyTakeDamage : MonoBehaviour
 
     void Update()
     {
-        //healtbar1.fillAmount = health1;   
-        //healtbar2.fillAmount = health2;
-        //healtbar3.fillAmount = health3;
-        //healtbar4.fillAmount = health4;
+        healtbar1.fillAmount = health1;   
+        healtbar2.fillAmount = health2;
+        healtbar3.fillAmount = health3;
+        healtbar4.fillAmount = health4;
              
     }
 }
