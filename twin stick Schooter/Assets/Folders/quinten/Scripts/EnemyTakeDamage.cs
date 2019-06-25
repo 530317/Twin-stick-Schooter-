@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.AI;
 public class EnemyTakeDamage : MonoBehaviour
 {
     public int enemy;
@@ -14,8 +15,7 @@ public class EnemyTakeDamage : MonoBehaviour
     public Image healtbar2;
     public Image healtbar3;
     public Image healtbar4;
-
-
+    
     void Start()
     {
         health1 = 1f;
