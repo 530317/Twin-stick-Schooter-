@@ -25,7 +25,6 @@ public class Pickuparmor : MonoBehaviour
             {
                 if (inventory.isFull[i] == false)
                 {
-                    TakeDamage.armor = 1f;
                     inventory.isFull[i] = true;
                     Instantiate(itembutton, inventory.slots[i].transform, false);
                     Destroy(gameObject);
@@ -33,5 +32,9 @@ public class Pickuparmor : MonoBehaviour
                 }
             }
         }
+    }
+    public void knop()
+    {
+        TakeDamage.armor = 1f;
     }
 }

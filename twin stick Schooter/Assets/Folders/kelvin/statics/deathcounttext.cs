@@ -5,16 +5,17 @@ using UnityEngine.UI;
 
 public class deathcounttext : MonoBehaviour
 {
-    private Text deathcount;
+    public Text deathdoor;
+    private int deathcount;
     // Start is called before the first frame update
     void Start()
-    {
-        deathcount = GetComponent<Text>();
+    { 
+        deathcount = TakeDamage.death;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Deathcreen.
+        deathdoor.text = "" + deathcount;
     }
 }
