@@ -15,7 +15,7 @@ public class EnemyTakeDamage : MonoBehaviour
     public Image healtbar2;
     public Image healtbar3;
     public Image healtbar4;
-    public GameObject PlayerBullet;
+  
     
     void Start()
     {
