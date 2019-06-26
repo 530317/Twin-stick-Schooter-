@@ -28,7 +28,6 @@ public class AmoPickUp : MonoBehaviour
     public void knop()
     {
       Guncontroller.maxamo = 30;
-        inventory.isFull[I] = false;
-        Destroy(itembutton);
+        Destroy(gameObject);
     }
 }
