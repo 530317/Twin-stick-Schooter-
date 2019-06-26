@@ -30,6 +30,7 @@ public class Pickuphealth : MonoBehaviour
                    {
                        inventory.isFull[i] = true;
                        Instantiate(itembutton, inventory.slots[i].transform, false);
+                       Destroy(gameObject);
                        I = i;
                        break;
                    }
