@@ -23,5 +23,9 @@ public class Bulletcontroller : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (hit.gameObject.tag == "EnemyRobot")
+        {
+            Destroy(gameObject);
+        }
     }
 }
