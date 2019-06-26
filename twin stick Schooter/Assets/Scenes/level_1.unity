@@ -11756,7 +11756,7 @@ Transform:
   - {fileID: 292769403}
   - {fileID: 1816997678}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &775206447
 PrefabInstance:
@@ -12489,7 +12489,7 @@ PrefabInstance:
     - target: {fileID: 3193837789320181702, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3193837789320181702, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
         type: 3}
@@ -19773,7 +19773,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1879424692, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1879424701, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19829,15 +19829,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 869723217, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1456469856, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1501532199, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1879424698, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
       propertyPath: slots.Array.size
@@ -19869,7 +19869,7 @@ PrefabInstance:
       objectReference: {fileID: 427511843}
     - target: {fileID: 1211515532, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1456469857, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
       propertyPath: bulletSpeed
@@ -19896,19 +19896,19 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 1552499260, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 56619974, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1051646860, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2058620047, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1879424693, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
       propertyPath: m_Size.z
@@ -33829,7 +33829,7 @@ Transform:
   - {fileID: 3691475378524655596}
   - {fileID: 6281075119834861534}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 176.376, z: 0}
 --- !u!1 &8167867737431839216
 GameObject:
@@ -33906,7 +33906,6 @@ MonoBehaviour:
   healtbar2: {fileID: 0}
   healtbar3: {fileID: 0}
   healtbar4: {fileID: 3691475377562899359}
-  PlayerBullet: {fileID: 0}
 --- !u!114 &8167867737431839229
 MonoBehaviour:
   m_ObjectHideFlags: 0
