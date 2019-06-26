@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Deathcreen : MonoBehaviour
+public class Deathcreen : Scene_Switch
 {
     public Text deaths;
     public Text deathdoor;
@@ -12,7 +12,7 @@ public class Deathcreen : MonoBehaviour
     public int deathcount;
     private string deathdoorname;
     private int score;
-    private static int scene;
+    public int scene;
 
     void Start()
     {
@@ -45,7 +45,6 @@ public class Deathcreen : MonoBehaviour
     }
     public void Resume()
     {
-        SceneManager.LoadScene("sene nieke");
         Score.score = 0;
         Guncontroller.maxamo = 0;
         Guncontroller.currentAmmo = 0;
@@ -57,7 +56,10 @@ public class Deathcreen : MonoBehaviour
         EnemyTakeDamage.health3 = 1f;
         EnemyTakeDamage.health4 = 1f;
         Timetext.starttimer = 0;
-
+        if (scene == 0)
+        {
+          SceneManager.LoadScene("sene nieke");
+        }
         if (scene == 1)
         {
             SceneManager.LoadScene("Level_1");

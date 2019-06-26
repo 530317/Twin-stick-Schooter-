@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class Scene_Switch : MonoBehaviour
 {
-   
-
-
-    void Start()
-    {
-        
-    }
-
-    
+    public int scene2;
     void Update()
     {
         
