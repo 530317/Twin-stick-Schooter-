@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7001398089293712764}
   - component: {fileID: 2984078425883479753}
   - component: {fileID: 3604508519708781303}
+  - component: {fileID: 7640496066028775397}
   m_Layer: 0
   m_Name: healthpack
   m_TagString: Untagged
@@ -77,3 +78,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &7640496066028775397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957012669171326357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385dde762a7f2e1418348d48840c908e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 0}
+  itembutton: {fileID: 0}
