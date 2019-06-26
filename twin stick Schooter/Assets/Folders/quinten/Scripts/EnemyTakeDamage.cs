@@ -15,6 +15,7 @@ public class EnemyTakeDamage : MonoBehaviour
     public Image healtbar2;
     public Image healtbar3;
     public Image healtbar4;
+    public GameObject PlayerBullet;
     
     void Start()
     {
@@ -34,6 +35,7 @@ public class EnemyTakeDamage : MonoBehaviour
             {
                 Destroy(gameObject);
                 Score.score++;
+                
             }
         }
         else if (hit.gameObject.tag == "PlayerBullet" && enemy == 2)
