@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class deathcounttext : MonoBehaviour
+public class Deathcounttext : MonoBehaviour
 {
     public Text deathdoor;
     private int deathcount;
