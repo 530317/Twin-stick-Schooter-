@@ -21,7 +21,7 @@ public class Bulletcontroller : MonoBehaviour
     {
         if (hit.gameObject.tag == "Wall")
         {
-
+            Destroy(gameObject);
         }
     }
 }

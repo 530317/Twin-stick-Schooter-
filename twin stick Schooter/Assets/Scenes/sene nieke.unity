@@ -201,6 +201,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.251
@@ -273,6 +277,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -571,7 +579,7 @@ GameObject:
   - component: {fileID: 45038732}
   m_Layer: 9
   m_Name: m_recht (46)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -670,6 +678,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.302
@@ -737,7 +749,7 @@ GameObject:
   - component: {fileID: 52508344}
   m_Layer: 9
   m_Name: deur 6 (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -876,7 +888,7 @@ GameObject:
   - component: {fileID: 56748799}
   m_Layer: 9
   m_Name: m_deur (6)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -988,6 +1000,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.302
@@ -1059,7 +1075,7 @@ GameObject:
   - component: {fileID: 68177652}
   m_Layer: 9
   m_Name: m_recht (6)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1220,6 +1236,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1271374391, guid: fbe13f9a84f75c6458d4b73b995fb3b4,
     type: 3}
   m_PrefabInstance: {fileID: 374006367}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &80995999 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1879424692, guid: da37ec9284310d14884bf5c0af35e4e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1539509652}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &81643403
 PrefabInstance:
@@ -1591,6 +1613,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.10700035
@@ -1794,7 +1820,7 @@ GameObject:
   - component: {fileID: 100585352}
   m_Layer: 9
   m_Name: m_recht (19)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1889,7 +1915,7 @@ GameObject:
   - component: {fileID: 103441630}
   m_Layer: 9
   m_Name: m_recht (13)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2059,7 +2085,7 @@ GameObject:
   - component: {fileID: 119881394}
   m_Layer: 9
   m_Name: m_recht (70)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2154,7 +2180,7 @@ GameObject:
   - component: {fileID: 127203000}
   m_Layer: 9
   m_Name: m_recht (53)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2507,7 +2533,7 @@ GameObject:
   - component: {fileID: 1091649195}
   m_Layer: 9
   m_Name: deur 2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2952,7 +2978,7 @@ GameObject:
   - component: {fileID: 182951494}
   m_Layer: 9
   m_Name: m_recht (29)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3066,7 +3092,7 @@ GameObject:
   - component: {fileID: 185672339}
   m_Layer: 9
   m_Name: m_recht (50)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3309,7 +3335,7 @@ GameObject:
   - component: {fileID: 213479186}
   m_Layer: 9
   m_Name: m_recht (66)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3542,7 +3568,7 @@ GameObject:
   - component: {fileID: 218857865}
   m_Layer: 9
   m_Name: m_recht (42)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3640,6 +3666,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3778,6 +3808,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3923,7 +3957,7 @@ GameObject:
   - component: {fileID: 236095006}
   m_Layer: 9
   m_Name: m_recht (36)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4152,7 +4186,7 @@ GameObject:
   - component: {fileID: 242873882}
   m_Layer: 9
   m_Name: m_recht (18)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4688,7 +4722,7 @@ GameObject:
   - component: {fileID: 259862326}
   m_Layer: 9
   m_Name: m_recht (45)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4982,7 +5016,7 @@ GameObject:
   - component: {fileID: 273901982}
   m_Layer: 9
   m_Name: m_recht (24)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5086,6 +5120,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5468,7 +5506,7 @@ GameObject:
   - component: {fileID: 307890844}
   m_Layer: 9
   m_Name: m_recht (58)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5567,6 +5605,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.1070004
@@ -5635,6 +5677,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5705,6 +5751,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.0509996
@@ -5772,7 +5822,7 @@ GameObject:
   - component: {fileID: 323645927}
   m_Layer: 9
   m_Name: deur 6
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5901,7 +5951,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1539509652}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 80995999}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 36163b53d8c17de459aa59641dcc7f51, type: 3}
@@ -5928,7 +5978,7 @@ GameObject:
   - component: {fileID: 331119959}
   m_Layer: 9
   m_Name: m_recht (55)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6027,6 +6077,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1070004
@@ -6095,6 +6149,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6244,6 +6302,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.10700035
@@ -6380,7 +6442,7 @@ GameObject:
   - component: {fileID: 378537805}
   m_Layer: 9
   m_Name: m_deur (11)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7002,6 +7064,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.698
@@ -7160,7 +7226,7 @@ GameObject:
   - component: {fileID: 423680254}
   m_Layer: 9
   m_Name: m_recht (15)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7601,7 +7667,7 @@ GameObject:
   - component: {fileID: 464085856}
   m_Layer: 9
   m_Name: m_recht (63)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7766,7 +7832,7 @@ GameObject:
   - component: {fileID: 476878215}
   m_Layer: 9
   m_Name: m_deur (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7874,7 +7940,7 @@ GameObject:
   - component: {fileID: 479691262}
   m_Layer: 9
   m_Name: m_recht (14)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8042,6 +8108,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.250999
@@ -8110,6 +8180,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8328,6 +8402,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.10700035
@@ -8397,6 +8475,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.698
@@ -8462,7 +8544,7 @@ GameObject:
   - component: {fileID: 520682873}
   m_Layer: 9
   m_Name: m_recht (52)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8567,6 +8649,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.1020002
@@ -8635,6 +8721,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8705,6 +8795,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.302
@@ -8770,7 +8864,7 @@ GameObject:
   - component: {fileID: 532809045}
   m_Layer: 9
   m_Name: m_recht (20)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9074,6 +9168,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.102
@@ -9139,7 +9237,7 @@ GameObject:
   - component: {fileID: 538457156}
   m_Layer: 9
   m_Name: m_recht (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9323,6 +9421,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.698
@@ -9389,7 +9491,7 @@ GameObject:
   - component: {fileID: 545161591}
   m_Layer: 9
   m_Name: m_deur (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9497,7 +9599,7 @@ GameObject:
   - component: {fileID: 549451835}
   m_Layer: 9
   m_Name: m_recht (65)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9592,7 +9694,7 @@ GameObject:
   - component: {fileID: 555870864}
   m_Layer: 9
   m_Name: m_recht (64)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9758,7 +9860,7 @@ GameObject:
   - component: {fileID: 562389139}
   m_Layer: 9
   m_Name: deur 3
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10324,6 +10426,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.698
@@ -10567,6 +10673,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.30200005
@@ -10635,6 +10745,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10875,7 +10989,7 @@ GameObject:
   - component: {fileID: 631426268}
   m_Layer: 9
   m_Name: m_recht (49)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10974,6 +11088,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.093
@@ -11047,6 +11165,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.302
@@ -11116,6 +11238,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.698
@@ -11181,7 +11307,7 @@ GameObject:
   - component: {fileID: 645527422}
   m_Layer: 9
   m_Name: m_recht (75)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -11646,6 +11772,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.302
@@ -11721,6 +11851,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.498001
@@ -11789,6 +11923,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12140,6 +12278,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.698
@@ -12205,7 +12347,7 @@ GameObject:
   - component: {fileID: 716066690}
   m_Layer: 9
   m_Name: m_recht (39)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12300,7 +12442,7 @@ GameObject:
   - component: {fileID: 725760241}
   m_Layer: 9
   m_Name: m_recht (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12876,7 +13018,7 @@ GameObject:
   - component: {fileID: 785571298}
   m_Layer: 9
   m_Name: m_recht (56)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13015,7 +13157,7 @@ GameObject:
   - component: {fileID: 798053598}
   m_Layer: 9
   m_Name: m_recht (57)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13255,7 +13397,7 @@ GameObject:
   - component: {fileID: 814196441}
   m_Layer: 9
   m_Name: deur 5
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13545,6 +13687,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.2509995
@@ -13737,7 +13883,7 @@ GameObject:
   - component: {fileID: 831210417}
   m_Layer: 9
   m_Name: m_deur (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13845,7 +13991,7 @@ GameObject:
   - component: {fileID: 831690254}
   m_Layer: 9
   m_Name: m_recht (71)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14044,7 +14190,7 @@ GameObject:
   - component: {fileID: 834070396}
   m_Layer: 9
   m_Name: m_recht (21)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14142,6 +14288,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14551,6 +14701,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.302
@@ -14768,6 +14922,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.10700035
@@ -14836,6 +14994,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15161,7 +15323,7 @@ GameObject:
   - component: {fileID: 892091494}
   m_Layer: 9
   m_Name: m_recht (11)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15523,7 +15685,7 @@ GameObject:
   - component: {fileID: 924462427}
   m_Layer: 9
   m_Name: m_recht (54)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15628,6 +15790,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.3017015
@@ -15696,6 +15862,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15900,7 +16070,7 @@ GameObject:
   - component: {fileID: 951756371}
   m_Layer: 9
   m_Name: m_recht (32)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15998,6 +16168,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -16217,6 +16391,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.698
@@ -16285,6 +16463,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16359,7 +16541,7 @@ GameObject:
   - component: {fileID: 973814311}
   m_Layer: 9
   m_Name: deur 4
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16858,7 +17040,7 @@ GameObject:
   - component: {fileID: 999274573}
   m_Layer: 9
   m_Name: m_recht (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -17250,7 +17432,7 @@ GameObject:
   - component: {fileID: 1019088465}
   m_Layer: 9
   m_Name: m_deur (8)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -17465,7 +17647,7 @@ GameObject:
   - component: {fileID: 1027568721}
   m_Layer: 9
   m_Name: m_recht (23)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -17560,7 +17742,7 @@ GameObject:
   - component: {fileID: 1029496683}
   m_Layer: 9
   m_Name: m_recht (34)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18034,6 +18216,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.698
@@ -18306,6 +18492,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18618,7 +18808,7 @@ GameObject:
   - component: {fileID: 1103279280}
   m_Layer: 9
   m_Name: m_recht (26)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18920,7 +19110,7 @@ GameObject:
   - component: {fileID: 1134299635}
   m_Layer: 9
   m_Name: m_recht (67)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19128,6 +19318,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -19400,6 +19594,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19969,6 +20167,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -20195,6 +20397,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20695,7 +20901,7 @@ GameObject:
   - component: {fileID: 1259561105}
   m_Layer: 9
   m_Name: m_recht (9)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20793,6 +20999,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21034,7 +21244,7 @@ GameObject:
   - component: {fileID: 1304707364}
   m_Layer: 9
   m_Name: m_recht (28)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21132,6 +21342,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21242,7 +21456,7 @@ GameObject:
   - component: {fileID: 1315417324}
   m_Layer: 9
   m_Name: m_recht (38)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21347,6 +21561,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.30200005
@@ -21415,6 +21633,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21774,6 +21996,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -22095,7 +22321,7 @@ GameObject:
   - component: {fileID: 1345739344}
   m_Layer: 9
   m_Name: m_recht (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22200,6 +22426,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.498001
@@ -22265,7 +22495,7 @@ GameObject:
   - component: {fileID: 1365155007}
   m_Layer: 9
   m_Name: m_recht (33)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22443,6 +22673,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.498001
@@ -22520,7 +22754,7 @@ GameObject:
   - component: {fileID: 1379936942}
   m_Layer: 9
   m_Name: m_recht (68)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22783,7 +23017,7 @@ GameObject:
   - component: {fileID: 1399928650}
   m_Layer: 9
   m_Name: m_recht (10)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22881,6 +23115,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23032,7 +23270,7 @@ GameObject:
   - component: {fileID: 1433967375}
   m_Layer: 9
   m_Name: m_recht (17)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -23130,6 +23368,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23366,6 +23608,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.298
@@ -23431,7 +23677,7 @@ GameObject:
   - component: {fileID: 1450674620}
   m_Layer: 9
   m_Name: m_recht
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -24035,6 +24281,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.302
@@ -24167,6 +24417,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.698
@@ -24244,7 +24498,7 @@ GameObject:
   - component: {fileID: 1485871232}
   m_Layer: 9
   m_Name: m_recht (30)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -24342,6 +24596,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -24483,7 +24741,7 @@ GameObject:
   - component: {fileID: 1499460336}
   m_Layer: 9
   m_Name: m_recht (61)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -24717,7 +24975,7 @@ GameObject:
   - component: {fileID: 1518222622}
   m_Layer: 9
   m_Name: m_deur (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -24825,7 +25083,7 @@ GameObject:
   - component: {fileID: 1518440621}
   m_Layer: 9
   m_Name: m_recht (51)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -24920,7 +25178,7 @@ GameObject:
   - component: {fileID: 1531894562}
   m_Layer: 9
   m_Name: m_recht (40)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -25015,7 +25273,7 @@ GameObject:
   - component: {fileID: 1535949914}
   m_Layer: 9
   m_Name: m_recht (59)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -25179,7 +25437,7 @@ GameObject:
   - component: {fileID: 1537431301}
   m_Layer: 9
   m_Name: m_recht (8)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -25270,6 +25528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: player1
       objectReference: {fileID: 0}
+    - target: {fileID: 1879424692, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1879424701, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.317
@@ -25314,6 +25576,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1879424697, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
+      propertyPath: healtbar
+      value: 
+      objectReference: {fileID: 957983752}
+    - target: {fileID: 1879424697, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
+      propertyPath: armorbar
+      value: 
+      objectReference: {fileID: 1010589088}
     - target: {fileID: 1879424695, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
       propertyPath: maincamera
       value: 
@@ -25330,14 +25600,38 @@ PrefabInstance:
       propertyPath: slots.Array.data[2]
       value: 
       objectReference: {fileID: 627391878}
-    - target: {fileID: 1879424697, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
-      propertyPath: healtbar
-      value: 
-      objectReference: {fileID: 957983752}
-    - target: {fileID: 1879424697, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
-      propertyPath: armorbar
-      value: 
-      objectReference: {fileID: 1010589088}
+    - target: {fileID: 1456469856, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1501532199, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211515532, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1552499260, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 56619974, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1051646860, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2058620047, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 869723217, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da37ec9284310d14884bf5c0af35e4e3, type: 3}
 --- !u!4 &1545523751 stripped
@@ -25588,6 +25882,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.498001
@@ -25656,6 +25954,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25791,7 +26093,7 @@ GameObject:
   - component: {fileID: 1570870806}
   m_Layer: 9
   m_Name: m_recht (69)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26046,7 +26348,7 @@ GameObject:
   - component: {fileID: 1573091214}
   m_Layer: 9
   m_Name: m_recht (47)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26254,6 +26556,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.698
@@ -26388,7 +26694,7 @@ GameObject:
   - component: {fileID: 1598521570}
   m_Layer: 9
   m_Name: m_deur (10)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26823,7 +27129,7 @@ GameObject:
   - component: {fileID: 1627705563}
   m_Layer: 9
   m_Name: m_recht (16)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26991,7 +27297,7 @@ GameObject:
   - component: {fileID: 1630700932}
   m_Layer: 9
   m_Name: m_recht (31)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -27158,6 +27464,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27686,6 +27996,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.10700035
@@ -27825,7 +28139,7 @@ GameObject:
   - component: {fileID: 1679931932}
   m_Layer: 9
   m_Name: m_recht (27)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -28250,7 +28564,7 @@ GameObject:
   - component: {fileID: 1696987934}
   m_Layer: 9
   m_Name: m_recht (48)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -28511,6 +28825,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.698
@@ -28586,6 +28904,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.10700035
@@ -28654,6 +28976,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -29128,7 +29454,7 @@ GameObject:
   - component: {fileID: 1771025756}
   m_Layer: 9
   m_Name: m_recht (72)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -29342,6 +29668,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.302
@@ -29407,7 +29737,7 @@ GameObject:
   - component: {fileID: 1791525512}
   m_Layer: 9
   m_Name: m_recht (62)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -29740,6 +30070,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.250999
@@ -30023,7 +30357,7 @@ GameObject:
   - component: {fileID: 1808229030}
   m_Layer: 9
   m_Name: m_recht (25)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -30275,6 +30609,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.1890001
@@ -30419,7 +30757,7 @@ GameObject:
   - component: {fileID: 1824760810}
   m_Layer: 9
   m_Name: m_recht (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -30517,6 +30855,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30796,6 +31138,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -30861,7 +31207,7 @@ GameObject:
   - component: {fileID: 1854537689}
   m_Layer: 9
   m_Name: m_recht (12)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -31345,7 +31691,7 @@ GameObject:
   - component: {fileID: 1872060489}
   m_Layer: 9
   m_Name: m_recht (73)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -31952,6 +32298,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.302
@@ -32253,7 +32603,7 @@ GameObject:
   - component: {fileID: 1948400944}
   m_Layer: 9
   m_Name: m_deur (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -32434,6 +32784,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.102
@@ -32499,7 +32853,7 @@ GameObject:
   - component: {fileID: 1956252520}
   m_Layer: 9
   m_Name: m_recht (22)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -33074,6 +33428,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.698
@@ -33554,7 +33912,7 @@ GameObject:
   - component: {fileID: 2004778637}
   m_Layer: 9
   m_Name: m_recht (43)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -33787,7 +34145,7 @@ GameObject:
   - component: {fileID: 2013793166}
   m_Layer: 9
   m_Name: m_recht (76)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -34112,6 +34470,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: a8c1695ecbdfc5a4fbdf2f1792ea5276, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -34659,7 +35021,7 @@ GameObject:
   - component: {fileID: 2076655426}
   m_Layer: 9
   m_Name: m_recht (44)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -34845,7 +35207,7 @@ GameObject:
   - component: {fileID: 2085081162}
   m_Layer: 9
   m_Name: m_deur (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -35258,6 +35620,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.498001
@@ -35461,7 +35827,7 @@ GameObject:
   - component: {fileID: 2127783655}
   m_Layer: 9
   m_Name: m_recht (37)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -35556,7 +35922,7 @@ GameObject:
   - component: {fileID: 2128083228}
   m_Layer: 9
   m_Name: m_recht (41)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -35655,6 +36021,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 87b66d313bb28a44aa23503191f1049c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.2509995
@@ -35720,7 +36090,7 @@ GameObject:
   - component: {fileID: 2137876688}
   m_Layer: 9
   m_Name: m_recht (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -35881,6 +36251,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: deur 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4924160773648651178, guid: 43e277173cbe9e94da203307f1df9f6a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4924160773648420746, guid: 43e277173cbe9e94da203307f1df9f6a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35954,6 +36329,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940430733533849993, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
+        type: 3}
+      propertyPath: m_FillAmount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3193837789320181702, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
         type: 3}
@@ -36049,7 +36429,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 80995999}
     - target: {fileID: 3193837789319949281, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
         type: 3}
       propertyPath: m_IsTrigger
@@ -36109,11 +36489,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7940430733533849993, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
-        type: 3}
-      propertyPath: m_FillAmount
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c3d7da893d66ff4794f1c3bf55837a7, type: 3}
@@ -36350,7 +36725,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 80995999}
     - target: {fileID: 5312495160216294135, guid: e4a73d90ff9d692499dc4e438c7d163e,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -36529,7 +36904,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 80995999}
     - target: {fileID: 6340858117324480338, guid: 367a4c418a33d0e42952ef2de2bf175c,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -36714,7 +37089,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 80995999}
     - target: {fileID: 8780627355745571176, guid: 3eea6c8830641b64cacd2ff2852a092b,
         type: 3}
       propertyPath: m_LocalScale.z

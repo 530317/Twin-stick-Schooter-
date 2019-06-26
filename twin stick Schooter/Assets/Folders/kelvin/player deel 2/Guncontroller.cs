@@ -66,6 +66,15 @@ public class Guncontroller : MonoBehaviour
         }
        
     }
+
+    void OnTriggerEnter(Collider hit)
+    {
+        if (hit.gameObject.tag == "Wall")
+        {
+            Destroy(gameObject);
+        }
+    }
+
     IEnumerator Fire()
     {
         currentAmmo--;
