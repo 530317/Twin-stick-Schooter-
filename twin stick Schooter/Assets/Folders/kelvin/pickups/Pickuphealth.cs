@@ -6,6 +6,7 @@ public class Pickuphealth : MonoBehaviour
 {
     public Inventory inventory;
     public GameObject itembutton;
+    private int I;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +31,7 @@ public class Pickuphealth : MonoBehaviour
                        inventory.isFull[i] = true;
                        Instantiate(itembutton, inventory.slots[i].transform, false);
                        Destroy(gameObject);
+                       I = i;
                        break;
                    }
             }
@@ -38,12 +40,8 @@ public class Pickuphealth : MonoBehaviour
     }
     public void healtherbij()
     {
-            TakeDamage.health = 1f;
-            foreach (Transform child in transform)
-            {
-                GameObject.Destroy(child.gameObject);
-            }
-        
-        
+         TakeDamage.health = 1f;
+        inventory.isFull[I] = false;
+        Destroy(gameObject);
     }
 }

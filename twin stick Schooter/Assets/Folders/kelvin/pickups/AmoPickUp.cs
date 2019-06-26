@@ -6,18 +6,7 @@ public class AmoPickUp : MonoBehaviour
 {
     public Inventory inventory;
     public GameObject itembutton;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    private int I;
     private void OnTriggerEnter(Collider other)
     {
        
@@ -30,6 +19,7 @@ public class AmoPickUp : MonoBehaviour
                  inventory.isFull[i] = true;
                  Instantiate(itembutton, inventory.slots[i].transform, false);
                  Destroy(gameObject);
+                    I = i;
                 break;
              }
           }
@@ -38,6 +28,7 @@ public class AmoPickUp : MonoBehaviour
     public void knop()
     {
       Guncontroller.maxamo = 30;
-        
+        inventory.isFull[I] = false;
+        Destroy(itembutton);
     }
 }

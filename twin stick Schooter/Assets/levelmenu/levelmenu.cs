@@ -21,11 +21,15 @@ public class levelmenu : MonoBehaviour
     {
         if (getal == 1)
         {
-            SceneManager.LoadScene("sene nieke");
+            SceneManager.LoadScene("level_1");
         }
         if (getal == 2 )
         {
-            SceneManager.LoadScene("level2");
+            SceneManager.LoadScene("level_2");
+        }
+        if (getal == 3)
+        {
+            SceneManager.LoadScene("level_3");
         }
     }
     public void exit()

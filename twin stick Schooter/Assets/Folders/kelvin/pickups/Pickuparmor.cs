@@ -6,17 +6,8 @@ public class Pickuparmor : MonoBehaviour
 {
     public Inventory inventory;
     public GameObject itembutton;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private int I;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.name == "player1")
@@ -28,6 +19,7 @@ public class Pickuparmor : MonoBehaviour
                     inventory.isFull[i] = true;
                     Instantiate(itembutton, inventory.slots[i].transform, false);
                     Destroy(gameObject);
+                    I = i;
                     break;
                 }
             }
@@ -36,5 +28,7 @@ public class Pickuparmor : MonoBehaviour
     public void knop()
     {
         TakeDamage.armor = 1f;
+        inventory.isFull[I] = false;
+        Destroy(gameObject);
     }
 }
