@@ -12,6 +12,7 @@ public class Deathcreen : MonoBehaviour
     public int deathcount;
     private string deathdoorname;
     private int score;
+    private static int scene;
 
     void Start()
     {
@@ -56,5 +57,19 @@ public class Deathcreen : MonoBehaviour
         EnemyTakeDamage.health3 = 1f;
         EnemyTakeDamage.health4 = 1f;
         Timetext.starttimer = 0;
+
+        if (scene == 1)
+        {
+            SceneManager.LoadScene("Level_1");
+        }
+        if (scene == 2)
+        {
+            SceneManager.LoadScene("Level_2");
+        }
+        if (scene == 3)
+        {
+            SceneManager.LoadScene("Level_3");
+        }
+
     }
 }
