@@ -7386,11 +7386,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: EnemyRobot
       objectReference: {fileID: 0}
-    - target: {fileID: 7940430733533849993, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
-        type: 3}
-      propertyPath: m_FillAmount
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3193837789320181702, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7575,6 +7570,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940430733533849993, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
+        type: 3}
+      propertyPath: m_FillAmount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3193837789317756198, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
         type: 3}
@@ -10825,6 +10825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0ba68be580326047b22ff33bc0e595e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathdoor: {fileID: 0}
 --- !u!222 &401498608
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16773,7 +16774,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650646948}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 11.1, z: -10}
+  m_LocalPosition: {x: 0, y: 43, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -17214,6 +17215,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3668516
       objectReference: {fileID: 0}
+    - target: {fileID: 4924160773648651179, guid: 43e277173cbe9e94da203307f1df9f6a,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ed6d80575ff66e74bbabaadd917c0af6, type: 2}
     - target: {fileID: 4924160773648651176, guid: 43e277173cbe9e94da203307f1df9f6a,
         type: 3}
       propertyPath: m_Size.x
@@ -17234,11 +17240,6 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0.062348522
       objectReference: {fileID: 0}
-    - target: {fileID: 4924160773648651179, guid: 43e277173cbe9e94da203307f1df9f6a,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: ed6d80575ff66e74bbabaadd917c0af6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43e277173cbe9e94da203307f1df9f6a, type: 3}
 --- !u!4 &672681510 stripped
@@ -19726,11 +19727,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: EnemyRobot
       objectReference: {fileID: 0}
-    - target: {fileID: 7940430733533849993, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
-        type: 3}
-      propertyPath: m_FillAmount
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3193837789320181702, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19915,6 +19911,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940430733533849993, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
+        type: 3}
+      propertyPath: m_FillAmount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3193837789317756198, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
         type: 3}
@@ -33156,11 +33157,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: EnemyRobot
       objectReference: {fileID: 0}
-    - target: {fileID: 7940430733533849993, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
-        type: 3}
-      propertyPath: m_FillAmount
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3193837789320181702, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33345,6 +33341,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940430733533849993, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
+        type: 3}
+      propertyPath: m_FillAmount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3193837789317756198, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
         type: 3}
@@ -54899,6 +54900,11 @@ PrefabInstance:
       propertyPath: deur
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4924160773648651179, guid: 43e277173cbe9e94da203307f1df9f6a,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ed6d80575ff66e74bbabaadd917c0af6, type: 2}
     - target: {fileID: 4924160773648651176, guid: 43e277173cbe9e94da203307f1df9f6a,
         type: 3}
       propertyPath: m_Size.x
@@ -54919,11 +54925,6 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0.0069197323
       objectReference: {fileID: 0}
-    - target: {fileID: 4924160773648651179, guid: 43e277173cbe9e94da203307f1df9f6a,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: ed6d80575ff66e74bbabaadd917c0af6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43e277173cbe9e94da203307f1df9f6a, type: 3}
 --- !u!4 &1961626173 stripped
@@ -57422,11 +57423,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: EnemyRobot
       objectReference: {fileID: 0}
-    - target: {fileID: 7940430733533849993, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
-        type: 3}
-      propertyPath: m_FillAmount
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3193837789320181702, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57611,6 +57607,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940430733533849993, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
+        type: 3}
+      propertyPath: m_FillAmount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3193837789317756198, guid: 5c3d7da893d66ff4794f1c3bf55837a7,
         type: 3}

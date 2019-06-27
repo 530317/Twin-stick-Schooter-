@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2984078425883479753}
   - component: {fileID: 3604508519708781303}
   - component: {fileID: 7640496066028775397}
+  - component: {fileID: 1127182848}
   m_Layer: 0
   m_Name: healthpack
   m_TagString: Untagged
@@ -26,9 +27,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957012669171326357}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.5913477, y: 0.04892479, z: -26.813581}
-  m_LocalScale: {x: 26.631264, y: 29.017054, z: 45.38049}
+  m_LocalScale: {x: 40.159946, y: 43.757717, z: 68.43378}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -58,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c54f030c0c105f147987983b9f4fcc78, type: 3}
+  - {fileID: 2100000, guid: a9bf165f573d2434695f1a70caf76006, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -91,4 +92,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 0}
-  itembutton: {fileID: 0}
+  itembutton: {fileID: 2543806401561670866, guid: ce07e13126e06c3478505c10662d1ba1,
+    type: 3}
+--- !u!65 &1127182848
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957012669171326357}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.011699946, y: 0.008571427, z: 0.010000001}
+  m_Center: {x: 0.00084997213, y: 0.0007142859, z: 0}
