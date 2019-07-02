@@ -6,7 +6,7 @@ public class Pickuparmor : MonoBehaviour
 {
     public Inventory inventory;
     public GameObject itembutton;
-    private int I;
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -19,7 +19,6 @@ public class Pickuparmor : MonoBehaviour
                     inventory.isFull[i] = true;
                     Instantiate(itembutton, inventory.slots[i].transform, false);
                     Destroy(gameObject);
-                    I = i;
                     break;
                 }
             }
@@ -28,7 +27,6 @@ public class Pickuparmor : MonoBehaviour
     public void knop()
     {
         TakeDamage.armor = 1f;
-        inventory.isFull[I] = false;
         Destroy(gameObject);
     }
 }
